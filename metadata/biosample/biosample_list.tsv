@@ -1,0 +1,3 @@
+biosample_term_name	biosample_type	organism	source
+HepG2	cell line	Homo sapiens	ENCODE_seed
+K562	cell line	Homo sapiens	ENCODE_seed

@@ -1,0 +1,16 @@
+file_accession	experiment_accession	target_label	biosample_term_name	file_format	output_type	assembly	download_url	local_path	download_flag
+ENCFF288MWL	ENCSR828ZID	HNRNPK	HepG2	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF288MWL/@@download/ENCFF288MWL.bed.gz	raw/encode/peaks/HNRNPK/HepG2/ENCSR828ZID/ENCFF288MWL.peaks.GRCh38.bed	yes
+ENCFF754XAQ	ENCSR828ZID	HNRNPK	HepG2	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF754XAQ/@@download/ENCFF754XAQ.bed.gz	raw/encode/peaks/HNRNPK/HepG2/ENCSR828ZID/ENCFF754XAQ.peaks.GRCh38.bed	yes
+ENCFF855CPQ	ENCSR828ZID	HNRNPK	HepG2	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF855CPQ/@@download/ENCFF855CPQ.bed.gz	raw/encode/peaks/HNRNPK/HepG2/ENCSR828ZID/ENCFF855CPQ.peaks.GRCh38.bed	yes
+ENCFF318RSO	ENCSR953ZOA	HNRNPK	K562	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF318RSO/@@download/ENCFF318RSO.bed.gz	raw/encode/peaks/HNRNPK/K562/ENCSR953ZOA/ENCFF318RSO.peaks.GRCh38.bed	yes
+ENCFF679HYT	ENCSR953ZOA	HNRNPK	K562	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF679HYT/@@download/ENCFF679HYT.bed.gz	raw/encode/peaks/HNRNPK/K562/ENCSR953ZOA/ENCFF679HYT.peaks.GRCh38.bed	yes
+ENCFF969JDI	ENCSR953ZOA	HNRNPK	K562	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF969JDI/@@download/ENCFF969JDI.bed.gz	raw/encode/peaks/HNRNPK/K562/ENCSR953ZOA/ENCFF969JDI.peaks.GRCh38.bed	yes
+ENCFF421FJD	ENCSR187VEQ	TARDBP	HepG2	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF421FJD/@@download/ENCFF421FJD.bed.gz	raw/encode/peaks/TARDBP/HepG2/ENCSR187VEQ/ENCFF421FJD.peaks.GRCh38.bed	yes
+ENCFF626XAA	ENCSR187VEQ	TARDBP	HepG2	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF626XAA/@@download/ENCFF626XAA.bed.gz	raw/encode/peaks/TARDBP/HepG2/ENCSR187VEQ/ENCFF626XAA.peaks.GRCh38.bed	yes
+ENCFF673QBV	ENCSR187VEQ	TARDBP	HepG2	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF673QBV/@@download/ENCFF673QBV.bed.gz	raw/encode/peaks/TARDBP/HepG2/ENCSR187VEQ/ENCFF673QBV.peaks.GRCh38.bed	yes
+ENCFF037TVC	ENCSR584TCR	TARDBP	K562	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF037TVC/@@download/ENCFF037TVC.bed.gz	raw/encode/peaks/TARDBP/K562/ENCSR584TCR/ENCFF037TVC.peaks.GRCh38.bed	yes
+ENCFF606RXB	ENCSR584TCR	TARDBP	K562	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF606RXB/@@download/ENCFF606RXB.bed.gz	raw/encode/peaks/TARDBP/K562/ENCSR584TCR/ENCFF606RXB.peaks.GRCh38.bed	yes
+ENCFF669TNM	ENCSR584TCR	TARDBP	K562	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF669TNM/@@download/ENCFF669TNM.bed.gz	raw/encode/peaks/TARDBP/K562/ENCSR584TCR/ENCFF669TNM.peaks.GRCh38.bed	yes
+ENCFF265XPM	ENCSR720BJU	TARDBP	K562	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF265XPM/@@download/ENCFF265XPM.bed.gz	raw/encode/peaks/TARDBP/K562/ENCSR720BJU/ENCFF265XPM.peaks.GRCh38.bed	yes
+ENCFF381KTD	ENCSR720BJU	TARDBP	K562	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF381KTD/@@download/ENCFF381KTD.bed.gz	raw/encode/peaks/TARDBP/K562/ENCSR720BJU/ENCFF381KTD.peaks.GRCh38.bed	yes
+ENCFF593RED	ENCSR720BJU	TARDBP	K562	bed	peaks	GRCh38	https://www.encodeproject.org/files/ENCFF593RED/@@download/ENCFF593RED.bed.gz	raw/encode/peaks/TARDBP/K562/ENCSR720BJU/ENCFF593RED.peaks.GRCh38.bed	yes

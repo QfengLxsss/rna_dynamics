@@ -1,0 +1,7 @@
+experiment_accession	target_label	assay_title	biosample_term_name	biosample_type	organism	lab	status	audit_warning	qc_keep	qc_reason
+ENCSR828ZID	HNRNPK	eCLIP	HepG2	cell line	Homo sapiens	Gene Yeo, UCSD	released	INTERNAL_ACTION	yes	released_no_obvious_severe_audit
+ENCSR268ETU	HNRNPK	eCLIP	K562	cell line	Homo sapiens	Gene Yeo, UCSD	released	INTERNAL_ACTION;WARNING	manual_check	audit_flag:internal_action,warning
+ENCSR953ZOA	HNRNPK	eCLIP	K562	cell line	Homo sapiens	Gene Yeo, UCSD	released		yes	released_no_obvious_severe_audit
+ENCSR187VEQ	TARDBP	eCLIP	HepG2	cell line	Homo sapiens	Gene Yeo, UCSD	released		yes	released_no_obvious_severe_audit
+ENCSR584TCR	TARDBP	eCLIP	K562	cell line	Homo sapiens	Gene Yeo, UCSD	released	INTERNAL_ACTION	yes	released_no_obvious_severe_audit
+ENCSR720BJU	TARDBP	eCLIP	K562	cell line	Homo sapiens	Gene Yeo, UCSD	released		yes	released_no_obvious_severe_audit

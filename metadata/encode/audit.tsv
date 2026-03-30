@@ -1,0 +1,19 @@
+experiment_accession	file_accession	audit_level	audit_category	message
+ENCSR268ETU		INTERNAL_ACTION	mismatched status	Released file {ENCFF926VXD|/files/ENCFF926VXD/} has replaced subobject file {6f5c1e8a-e831-4685-a413-0d1c8336e400|/files/6f5c1e8a-e831-4685-a413-0d1c8336e400/}
+ENCSR268ETU		INTERNAL_ACTION	mismatched status	Released file {ENCFF353ZBK|/files/ENCFF353ZBK/} has replaced subobject file {cf845e14-d408-4d30-9d36-a13a461e5657|/files/cf845e14-d408-4d30-9d36-a13a461e5657/}
+ENCSR268ETU		INTERNAL_ACTION	mismatched status	Released file {ENCFF890SLG|/files/ENCFF890SLG/} has replaced subobject file {b9908f11-351d-48ff-a6d4-f6e74d248988|/files/b9908f11-351d-48ff-a6d4-f6e74d248988/}
+ENCSR268ETU		INTERNAL_ACTION	mismatched status	Released file {ENCFF156HRW|/files/ENCFF156HRW/} has replaced subobject file {85ce86a8-21de-4818-a8f1-9c1b3dd45a19|/files/85ce86a8-21de-4818-a8f1-9c1b3dd45a19/}
+ENCSR268ETU		INTERNAL_ACTION	mismatched status	Released experiment {ENCSR268ETU|/experiments/ENCSR268ETU/} has archived subobject analysis {ENCAN839MHJ|/analyses/ENCAN839MHJ/}
+ENCSR268ETU		WARNING	mixed read lengths	Biological replicate 2 in experiment {ENCSR268ETU|/experiments/ENCSR268ETU/} has mixed sequencing read lengths {45, 39}.
+ENCSR268ETU		WARNING	mixed read lengths	Biological replicate 1 in experiment {ENCSR268ETU|/experiments/ENCSR268ETU/} has mixed sequencing read lengths {45, 39}.
+ENCSR268ETU		WARNING	mixed read lengths	Biological replicate 2 in experiment {ENCSR268ETU|/experiments/ENCSR268ETU/} has sequencing read lengths [45, 39]  that differ from replicate 1, which has [45, 39] sequencing read lengths.
+ENCSR584TCR		INTERNAL_ACTION	mismatched status	Released experiment {ENCSR584TCR|/experiments/ENCSR584TCR/} has archived subobject analysis {ENCAN254DIQ|/analyses/ENCAN254DIQ/}
+ENCSR584TCR		INTERNAL_ACTION	mismatched status	Released file {ENCFF619APF|/files/ENCFF619APF/} has replaced subobject file {0871b028-3918-461b-9dec-2f564dc14d5f|/files/0871b028-3918-461b-9dec-2f564dc14d5f/}
+ENCSR584TCR		INTERNAL_ACTION	mismatched status	Released file {ENCFF281ELS|/files/ENCFF281ELS/} has replaced subobject file {c5460de1-6a1d-41e0-b9c6-4abb857a8a49|/files/c5460de1-6a1d-41e0-b9c6-4abb857a8a49/}
+ENCSR584TCR		INTERNAL_ACTION	mismatched status	Released file {ENCFF450IVA|/files/ENCFF450IVA/} has replaced subobject file {7102c420-05e9-4818-bd54-7bd97a88e3be|/files/7102c420-05e9-4818-bd54-7bd97a88e3be/}
+ENCSR584TCR		INTERNAL_ACTION	mismatched status	Released file {ENCFF591LPY|/files/ENCFF591LPY/} has replaced subobject file {0f3f0c2e-7cac-465b-beb9-691d17b4763d|/files/0f3f0c2e-7cac-465b-beb9-691d17b4763d/}
+ENCSR828ZID		INTERNAL_ACTION	mismatched status	Released file {ENCFF147EIS|/files/ENCFF147EIS/} has replaced subobject file {e9f8435e-c355-4213-ab9c-ce6772f8c961|/files/e9f8435e-c355-4213-ab9c-ce6772f8c961/}
+ENCSR828ZID		INTERNAL_ACTION	mismatched status	Released file {ENCFF073VAO|/files/ENCFF073VAO/} has replaced subobject file {ee25e594-0bf3-46e9-859c-7436f1184d7f|/files/ee25e594-0bf3-46e9-859c-7436f1184d7f/}
+ENCSR828ZID		INTERNAL_ACTION	mismatched status	Released experiment {ENCSR828ZID|/experiments/ENCSR828ZID/} has archived subobject analysis {ENCAN317BVE|/analyses/ENCAN317BVE/}
+ENCSR828ZID		INTERNAL_ACTION	mismatched status	Released file {ENCFF689WRD|/files/ENCFF689WRD/} has replaced subobject file {bbe965cc-bf4a-40c1-bf6c-12bb80f80797|/files/bbe965cc-bf4a-40c1-bf6c-12bb80f80797/}
+ENCSR828ZID		INTERNAL_ACTION	mismatched status	Released file {ENCFF608OWA|/files/ENCFF608OWA/} has replaced subobject file {aa992d50-61d7-4da7-9707-5d52b30c5a4b|/files/aa992d50-61d7-4da7-9707-5d52b30c5a4b/}

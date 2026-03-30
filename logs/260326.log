@@ -1,0 +1,42 @@
+(base) junguang@Server15:~/wangshuo/rna_dynamics$ /usr/bin/python3 /data15/data15_5/junguang/wangshuo/rna_dynamics/scripts/00_init_project_structure.py
+[INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[DONE] Directories ensured: 37
+[DONE] Newly created directories: 36
+[DONE] Newly created files: 30
+[DONE] Existing files kept unchanged: 0
+
+[INFO] Recommended next files to edit first:
+  1. metadata/rbp/rbp_seed_list.tsv
+  2. metadata/biosample/tissue_mapping.tsv
+  3. docs/encode_notes.md
+  4. scripts/01_metadata/01_collect_encode_eclip_metadata.py
+(base) junguang@Server15:~/wangshuo/rna_dynamics$ /usr/bin/python3 /data15/data15_5/junguang/wangshuo/rna_dynamics/scripts/01_metadata/01_collect_encode_eclip_metadata.py
+[INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[INFO] RBP count: 2 -> HNRNPK, TARDBP
+[INFO] Biosample filter count: 2 -> HepG2, K562
+[INFO] Search filters: assay=eCLIP, organism=Homo sapiens, status=released
+[INFO] Querying ENCODE: RBP=HNRNPK | biosample=HepG2
+[INFO] Retrieved 1 experiments for RBP=HNRNPK, biosample=HepG2
+[INFO] Querying ENCODE: RBP=HNRNPK | biosample=K562
+[INFO] Retrieved 2 experiments for RBP=HNRNPK, biosample=K562
+[INFO] Querying ENCODE: RBP=TARDBP | biosample=HepG2
+[INFO] Retrieved 1 experiments for RBP=TARDBP, biosample=HepG2
+[INFO] Querying ENCODE: RBP=TARDBP | biosample=K562
+[INFO] Retrieved 2 experiments for RBP=TARDBP, biosample=K562
+
+[DONE] ENCODE metadata collection completed.
+[DONE] Queries sent: 4
+[DONE] Experiments written: 6 -> /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/encode/experiments.tsv
+[DONE] Files written: 132 -> /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/encode/files.tsv
+[DONE] Audit rows written: 18 -> /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/encode/audit.tsv
+
+[INFO] Quick file summary:
+  Peak-like files : 48
+  bigWig files    : 36
+  BAM files       : 24
+
+[INFO] Recommended next steps:
+  1. Inspect metadata/encode/experiments.tsv
+  2. Inspect metadata/encode/files.tsv
+  3. Build metadata/manifest/download_manifest.tsv from peak-like files first
+  4. Then write scripts/02_download/download_encode_data.py

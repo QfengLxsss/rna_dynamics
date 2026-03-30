@@ -1,0 +1,80 @@
+[INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[INFO] Manifest path: /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/manifest/download_manifest.tsv
+[INFO] Manifest rows total: 15
+[INFO] Eligible rows: 15
+[INFO] Overwrite: False
+[INFO] Dry run: False
+
+[INFO] First 5 eligible rows preview:
+  ENCFF288MWL | ENCSR828ZID | HNRNPK | HepG2 | raw/encode/peaks/HNRNPK/HepG2/ENCSR828ZID/ENCFF288MWL.peaks.GRCh38.bed
+  ENCFF754XAQ | ENCSR828ZID | HNRNPK | HepG2 | raw/encode/peaks/HNRNPK/HepG2/ENCSR828ZID/ENCFF754XAQ.peaks.GRCh38.bed
+  ENCFF855CPQ | ENCSR828ZID | HNRNPK | HepG2 | raw/encode/peaks/HNRNPK/HepG2/ENCSR828ZID/ENCFF855CPQ.peaks.GRCh38.bed
+  ENCFF318RSO | ENCSR953ZOA | HNRNPK | K562 | raw/encode/peaks/HNRNPK/K562/ENCSR953ZOA/ENCFF318RSO.peaks.GRCh38.bed
+  ENCFF679HYT | ENCSR953ZOA | HNRNPK | K562 | raw/encode/peaks/HNRNPK/K562/ENCSR953ZOA/ENCFF679HYT.peaks.GRCh38.bed
+
+[INFO] [1/15] Processing ENCFF288MWL
+[INFO] Downloading (1/3): ENCFF288MWL -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/HNRNPK/HepG2/ENCSR828ZID/ENCFF288MWL.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF288MWL | 1575893 bytes
+
+[INFO] [2/15] Processing ENCFF754XAQ
+[INFO] Downloading (1/3): ENCFF754XAQ -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/HNRNPK/HepG2/ENCSR828ZID/ENCFF754XAQ.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF754XAQ | 1818868 bytes
+
+[INFO] [3/15] Processing ENCFF855CPQ
+[INFO] Downloading (1/3): ENCFF855CPQ -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/HNRNPK/HepG2/ENCSR828ZID/ENCFF855CPQ.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF855CPQ | 123250 bytes
+
+[INFO] [4/15] Processing ENCFF318RSO
+[INFO] Downloading (1/3): ENCFF318RSO -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/HNRNPK/K562/ENCSR953ZOA/ENCFF318RSO.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF318RSO | 110713 bytes
+
+[INFO] [5/15] Processing ENCFF679HYT
+[INFO] Downloading (1/3): ENCFF679HYT -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/HNRNPK/K562/ENCSR953ZOA/ENCFF679HYT.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF679HYT | 1484312 bytes
+
+[INFO] [6/15] Processing ENCFF969JDI
+[INFO] Downloading (1/3): ENCFF969JDI -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/HNRNPK/K562/ENCSR953ZOA/ENCFF969JDI.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF969JDI | 2320831 bytes
+
+[INFO] [7/15] Processing ENCFF421FJD
+[INFO] Downloading (1/3): ENCFF421FJD -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/TARDBP/HepG2/ENCSR187VEQ/ENCFF421FJD.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF421FJD | 2013881 bytes
+
+[INFO] [8/15] Processing ENCFF626XAA
+[INFO] Downloading (1/3): ENCFF626XAA -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/TARDBP/HepG2/ENCSR187VEQ/ENCFF626XAA.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF626XAA | 2144744 bytes
+
+[INFO] [9/15] Processing ENCFF673QBV
+[INFO] Downloading (1/3): ENCFF673QBV -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/TARDBP/HepG2/ENCSR187VEQ/ENCFF673QBV.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF673QBV | 443962 bytes
+
+[INFO] [10/15] Processing ENCFF037TVC
+[INFO] Downloading (1/3): ENCFF037TVC -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/TARDBP/K562/ENCSR584TCR/ENCFF037TVC.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF037TVC | 152254 bytes
+
+[INFO] [11/15] Processing ENCFF606RXB
+[INFO] Downloading (1/3): ENCFF606RXB -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/TARDBP/K562/ENCSR584TCR/ENCFF606RXB.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF606RXB | 1298930 bytes
+
+[INFO] [12/15] Processing ENCFF669TNM
+[INFO] Downloading (1/3): ENCFF669TNM -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/TARDBP/K562/ENCSR584TCR/ENCFF669TNM.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF669TNM | 966669 bytes
+
+[INFO] [13/15] Processing ENCFF265XPM
+[INFO] Downloading (1/3): ENCFF265XPM -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/TARDBP/K562/ENCSR720BJU/ENCFF265XPM.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF265XPM | 518160 bytes
+
+[INFO] [14/15] Processing ENCFF381KTD
+[INFO] Downloading (1/3): ENCFF381KTD -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/TARDBP/K562/ENCSR720BJU/ENCFF381KTD.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF381KTD | 532323 bytes
+
+[INFO] [15/15] Processing ENCFF593RED
+[INFO] Downloading (1/3): ENCFF593RED -> /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/encode/peaks/TARDBP/K562/ENCSR720BJU/ENCFF593RED.peaks.GRCh38.bed
+[DONE] Downloaded: ENCFF593RED | 91663 bytes
+
+[DONE] Download summary:
+  Downloaded : 15
+  Skipped    : 0
+  Failed     : 0
+  Log file   : /data15/data15_5/junguang/wangshuo/rna_dynamics/logs/download_encode_data.log
+  Status TSV : /data15/data15_5/junguang/wangshuo/rna_dynamics/logs/download_status.tsv

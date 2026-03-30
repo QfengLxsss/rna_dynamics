@@ -1,0 +1,133 @@
+file_accession	experiment_accession	file_format	output_type	assembly	biological_replicates	technical_replicates	download_url
+ENCFF792QOH	ENCSR187VEQ	bam	alignments	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF792QOH/@@download/ENCFF792QOH.bam
+ENCFF918MZV	ENCSR187VEQ	bam	alignments	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF918MZV/@@download/ENCFF918MZV.bam
+ENCFF235GOJ	ENCSR187VEQ	bigWig	minus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF235GOJ/@@download/ENCFF235GOJ.bigWig
+ENCFF896PLI	ENCSR187VEQ	bigWig	minus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF896PLI/@@download/ENCFF896PLI.bigWig
+ENCFF421FJD	ENCSR187VEQ	bed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF421FJD/@@download/ENCFF421FJD.bed.gz
+ENCFF530VDN	ENCSR187VEQ	bigBed	peaks	GRCh38	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF530VDN/@@download/ENCFF530VDN.bigBed
+ENCFF626XAA	ENCSR187VEQ	bed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF626XAA/@@download/ENCFF626XAA.bed.gz
+ENCFF644MXY	ENCSR187VEQ	bigBed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF644MXY/@@download/ENCFF644MXY.bigBed
+ENCFF673QBV	ENCSR187VEQ	bed	peaks	GRCh38	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF673QBV/@@download/ENCFF673QBV.bed.gz
+ENCFF992HVN	ENCSR187VEQ	bigBed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF992HVN/@@download/ENCFF992HVN.bigBed
+ENCFF504BRQ	ENCSR187VEQ	bigWig	plus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF504BRQ/@@download/ENCFF504BRQ.bigWig
+ENCFF945MEA	ENCSR187VEQ	bigWig	plus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF945MEA/@@download/ENCFF945MEA.bigWig
+ENCFF137LSG	ENCSR187VEQ	fastq	reads		1	1_1	https://www.encodeproject.org/files/ENCFF137LSG/@@download/ENCFF137LSG.fastq.gz
+ENCFF868WQR	ENCSR187VEQ	fastq	reads		2	2_1	https://www.encodeproject.org/files/ENCFF868WQR/@@download/ENCFF868WQR.fastq.gz
+ENCFF432XFH	ENCSR187VEQ	tsv	transcript quantifications	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF432XFH/@@download/ENCFF432XFH.tsv
+ENCFF782SZT	ENCSR187VEQ	tsv	transcript quantifications	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF782SZT/@@download/ENCFF782SZT.tsv
+ENCFF174CYH	ENCSR187VEQ	bam	unfiltered alignments	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF174CYH/@@download/ENCFF174CYH.bam
+ENCFF958TEE	ENCSR187VEQ	bam	unfiltered alignments	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF958TEE/@@download/ENCFF958TEE.bam
+ENCFF049KXT	ENCSR268ETU	bam	alignments	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF049KXT/@@download/ENCFF049KXT.bam
+ENCFF405ESF	ENCSR268ETU	bam	alignments	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF405ESF/@@download/ENCFF405ESF.bam
+ENCFF525XIM	ENCSR268ETU	bam	alignments	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF525XIM/@@download/ENCFF525XIM.bam
+ENCFF894NKS	ENCSR268ETU	bam	alignments	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF894NKS/@@download/ENCFF894NKS.bam
+ENCFF131UIL	ENCSR268ETU	bigWig	minus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF131UIL/@@download/ENCFF131UIL.bigWig
+ENCFF562ZXX	ENCSR268ETU	bigWig	minus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF562ZXX/@@download/ENCFF562ZXX.bigWig
+ENCFF890SLG	ENCSR268ETU	bigWig	minus strand signal of unique reads	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF890SLG/@@download/ENCFF890SLG.bigWig
+ENCFF926VXD	ENCSR268ETU	bigWig	minus strand signal of unique reads	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF926VXD/@@download/ENCFF926VXD.bigWig
+ENCFF079MYZ	ENCSR268ETU	bed	peaks	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF079MYZ/@@download/ENCFF079MYZ.bed.gz
+ENCFF241AOZ	ENCSR268ETU	bed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF241AOZ/@@download/ENCFF241AOZ.bed.gz
+ENCFF448SCQ	ENCSR268ETU	bed	peaks	hg19	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF448SCQ/@@download/ENCFF448SCQ.bed.gz
+ENCFF449ANI	ENCSR268ETU	bigBed	peaks	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF449ANI/@@download/ENCFF449ANI.bigBed
+ENCFF592UVI	ENCSR268ETU	bigBed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF592UVI/@@download/ENCFF592UVI.bigBed
+ENCFF636QVD	ENCSR268ETU	bigBed	peaks	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF636QVD/@@download/ENCFF636QVD.bigBed
+ENCFF769QNG	ENCSR268ETU	bed	peaks	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF769QNG/@@download/ENCFF769QNG.bed.gz
+ENCFF818LIK	ENCSR268ETU	bigBed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF818LIK/@@download/ENCFF818LIK.bigBed
+ENCFF824IDO	ENCSR268ETU	bed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF824IDO/@@download/ENCFF824IDO.bed.gz
+ENCFF918XJQ	ENCSR268ETU	bed	peaks	GRCh38	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF918XJQ/@@download/ENCFF918XJQ.bed.gz
+ENCFF071EBB	ENCSR268ETU	bigWig	plus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF071EBB/@@download/ENCFF071EBB.bigWig
+ENCFF156HRW	ENCSR268ETU	bigWig	plus strand signal of unique reads	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF156HRW/@@download/ENCFF156HRW.bigWig
+ENCFF353ZBK	ENCSR268ETU	bigWig	plus strand signal of unique reads	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF353ZBK/@@download/ENCFF353ZBK.bigWig
+ENCFF378VYJ	ENCSR268ETU	bigWig	plus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF378VYJ/@@download/ENCFF378VYJ.bigWig
+ENCFF169OLG	ENCSR268ETU	fastq	reads		2	2_1	https://www.encodeproject.org/files/ENCFF169OLG/@@download/ENCFF169OLG.fastq.gz
+ENCFF228HUK	ENCSR268ETU	fastq	reads		2	2_1	https://www.encodeproject.org/files/ENCFF228HUK/@@download/ENCFF228HUK.fastq.gz
+ENCFF335HRO	ENCSR268ETU	fastq	reads		1	1_1	https://www.encodeproject.org/files/ENCFF335HRO/@@download/ENCFF335HRO.fastq.gz
+ENCFF900FEK	ENCSR268ETU	fastq	reads		1	1_1	https://www.encodeproject.org/files/ENCFF900FEK/@@download/ENCFF900FEK.fastq.gz
+ENCFF453YOD	ENCSR584TCR	bam	alignments	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF453YOD/@@download/ENCFF453YOD.bam
+ENCFF524PYO	ENCSR584TCR	bam	alignments	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF524PYO/@@download/ENCFF524PYO.bam
+ENCFF565CEU	ENCSR584TCR	bam	alignments	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF565CEU/@@download/ENCFF565CEU.bam
+ENCFF923ZPC	ENCSR584TCR	bam	alignments	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF923ZPC/@@download/ENCFF923ZPC.bam
+ENCFF242QQJ	ENCSR584TCR	bigWig	minus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF242QQJ/@@download/ENCFF242QQJ.bigWig
+ENCFF281ELS	ENCSR584TCR	bigWig	minus strand signal of unique reads	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF281ELS/@@download/ENCFF281ELS.bigWig
+ENCFF591LPY	ENCSR584TCR	bigWig	minus strand signal of unique reads	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF591LPY/@@download/ENCFF591LPY.bigWig
+ENCFF979RKC	ENCSR584TCR	bigWig	minus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF979RKC/@@download/ENCFF979RKC.bigWig
+ENCFF022DCK	ENCSR584TCR	bigBed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF022DCK/@@download/ENCFF022DCK.bigBed
+ENCFF037TVC	ENCSR584TCR	bed	peaks	GRCh38	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF037TVC/@@download/ENCFF037TVC.bed.gz
+ENCFF118WWO	ENCSR584TCR	bigBed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF118WWO/@@download/ENCFF118WWO.bigBed
+ENCFF259NLI	ENCSR584TCR	bed	peaks	hg19	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF259NLI/@@download/ENCFF259NLI.bed.gz
+ENCFF333KPU	ENCSR584TCR	bed	peaks	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF333KPU/@@download/ENCFF333KPU.bed.gz
+ENCFF392HLM	ENCSR584TCR	bigBed	peaks	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF392HLM/@@download/ENCFF392HLM.bigBed
+ENCFF393WWU	ENCSR584TCR	bigBed	peaks	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF393WWU/@@download/ENCFF393WWU.bigBed
+ENCFF606RXB	ENCSR584TCR	bed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF606RXB/@@download/ENCFF606RXB.bed.gz
+ENCFF669TNM	ENCSR584TCR	bed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF669TNM/@@download/ENCFF669TNM.bed.gz
+ENCFF697CMV	ENCSR584TCR	bed	peaks	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF697CMV/@@download/ENCFF697CMV.bed.gz
+ENCFF435YMY	ENCSR584TCR	bigWig	plus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF435YMY/@@download/ENCFF435YMY.bigWig
+ENCFF450IVA	ENCSR584TCR	bigWig	plus strand signal of unique reads	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF450IVA/@@download/ENCFF450IVA.bigWig
+ENCFF569LQN	ENCSR584TCR	bigWig	plus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF569LQN/@@download/ENCFF569LQN.bigWig
+ENCFF619APF	ENCSR584TCR	bigWig	plus strand signal of unique reads	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF619APF/@@download/ENCFF619APF.bigWig
+ENCFF147JYD	ENCSR584TCR	fastq	reads		1	1_1	https://www.encodeproject.org/files/ENCFF147JYD/@@download/ENCFF147JYD.fastq.gz
+ENCFF218BOC	ENCSR584TCR	fastq	reads		2	2_1	https://www.encodeproject.org/files/ENCFF218BOC/@@download/ENCFF218BOC.fastq.gz
+ENCFF661TYX	ENCSR584TCR	fastq	reads		2	2_1	https://www.encodeproject.org/files/ENCFF661TYX/@@download/ENCFF661TYX.fastq.gz
+ENCFF734UEC	ENCSR584TCR	fastq	reads		1	1_1	https://www.encodeproject.org/files/ENCFF734UEC/@@download/ENCFF734UEC.fastq.gz
+ENCFF748KMS	ENCSR720BJU	bam	alignments	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF748KMS/@@download/ENCFF748KMS.bam
+ENCFF862SNV	ENCSR720BJU	bam	alignments	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF862SNV/@@download/ENCFF862SNV.bam
+ENCFF003HLV	ENCSR720BJU	bigWig	minus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF003HLV/@@download/ENCFF003HLV.bigWig
+ENCFF518YAZ	ENCSR720BJU	bigWig	minus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF518YAZ/@@download/ENCFF518YAZ.bigWig
+ENCFF164XWU	ENCSR720BJU	bigBed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF164XWU/@@download/ENCFF164XWU.bigBed
+ENCFF196UFB	ENCSR720BJU	bigBed	peaks	GRCh38	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF196UFB/@@download/ENCFF196UFB.bigBed
+ENCFF265XPM	ENCSR720BJU	bed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF265XPM/@@download/ENCFF265XPM.bed.gz
+ENCFF381KTD	ENCSR720BJU	bed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF381KTD/@@download/ENCFF381KTD.bed.gz
+ENCFF593RED	ENCSR720BJU	bed	peaks	GRCh38	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF593RED/@@download/ENCFF593RED.bed.gz
+ENCFF720KXG	ENCSR720BJU	bigBed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF720KXG/@@download/ENCFF720KXG.bigBed
+ENCFF214TBL	ENCSR720BJU	bigWig	plus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF214TBL/@@download/ENCFF214TBL.bigWig
+ENCFF848FSN	ENCSR720BJU	bigWig	plus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF848FSN/@@download/ENCFF848FSN.bigWig
+ENCFF673VEJ	ENCSR720BJU	fastq	reads		1	1_1	https://www.encodeproject.org/files/ENCFF673VEJ/@@download/ENCFF673VEJ.fastq.gz
+ENCFF679SNJ	ENCSR720BJU	fastq	reads		2	2_1	https://www.encodeproject.org/files/ENCFF679SNJ/@@download/ENCFF679SNJ.fastq.gz
+ENCFF195OTD	ENCSR720BJU	tsv	transcript quantifications	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF195OTD/@@download/ENCFF195OTD.tsv
+ENCFF909NAM	ENCSR720BJU	tsv	transcript quantifications	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF909NAM/@@download/ENCFF909NAM.tsv
+ENCFF198BGK	ENCSR720BJU	bam	unfiltered alignments	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF198BGK/@@download/ENCFF198BGK.bam
+ENCFF946DDI	ENCSR720BJU	bam	unfiltered alignments	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF946DDI/@@download/ENCFF946DDI.bam
+ENCFF198ISB	ENCSR828ZID	bam	alignments	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF198ISB/@@download/ENCFF198ISB.bam
+ENCFF329QRR	ENCSR828ZID	bam	alignments	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF329QRR/@@download/ENCFF329QRR.bam
+ENCFF457EXY	ENCSR828ZID	bam	alignments	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF457EXY/@@download/ENCFF457EXY.bam
+ENCFF553XCL	ENCSR828ZID	bam	alignments	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF553XCL/@@download/ENCFF553XCL.bam
+ENCFF073VAO	ENCSR828ZID	bigWig	minus strand signal of unique reads	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF073VAO/@@download/ENCFF073VAO.bigWig
+ENCFF234AEU	ENCSR828ZID	bigWig	minus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF234AEU/@@download/ENCFF234AEU.bigWig
+ENCFF494CVZ	ENCSR828ZID	bigWig	minus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF494CVZ/@@download/ENCFF494CVZ.bigWig
+ENCFF608OWA	ENCSR828ZID	bigWig	minus strand signal of unique reads	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF608OWA/@@download/ENCFF608OWA.bigWig
+ENCFF052YOQ	ENCSR828ZID	bigBed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF052YOQ/@@download/ENCFF052YOQ.bigBed
+ENCFF159LAW	ENCSR828ZID	bigBed	peaks	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF159LAW/@@download/ENCFF159LAW.bigBed
+ENCFF288MWL	ENCSR828ZID	bed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF288MWL/@@download/ENCFF288MWL.bed.gz
+ENCFF556EBT	ENCSR828ZID	bed	peaks	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF556EBT/@@download/ENCFF556EBT.bed.gz
+ENCFF754XAQ	ENCSR828ZID	bed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF754XAQ/@@download/ENCFF754XAQ.bed.gz
+ENCFF855CPQ	ENCSR828ZID	bed	peaks	GRCh38	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF855CPQ/@@download/ENCFF855CPQ.bed.gz
+ENCFF861DAK	ENCSR828ZID	bigBed	peaks	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF861DAK/@@download/ENCFF861DAK.bigBed
+ENCFF877KBJ	ENCSR828ZID	bed	peaks	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF877KBJ/@@download/ENCFF877KBJ.bed.gz
+ENCFF887CFI	ENCSR828ZID	bigBed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF887CFI/@@download/ENCFF887CFI.bigBed
+ENCFF993NVI	ENCSR828ZID	bed	peaks	hg19	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF993NVI/@@download/ENCFF993NVI.bed.gz
+ENCFF078NBU	ENCSR828ZID	bigWig	plus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF078NBU/@@download/ENCFF078NBU.bigWig
+ENCFF147EIS	ENCSR828ZID	bigWig	plus strand signal of unique reads	hg19	2	2_1	https://www.encodeproject.org/files/ENCFF147EIS/@@download/ENCFF147EIS.bigWig
+ENCFF404YRY	ENCSR828ZID	bigWig	plus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF404YRY/@@download/ENCFF404YRY.bigWig
+ENCFF689WRD	ENCSR828ZID	bigWig	plus strand signal of unique reads	hg19	1	1_1	https://www.encodeproject.org/files/ENCFF689WRD/@@download/ENCFF689WRD.bigWig
+ENCFF016HQT	ENCSR828ZID	fastq	reads		1	1_1	https://www.encodeproject.org/files/ENCFF016HQT/@@download/ENCFF016HQT.fastq.gz
+ENCFF118YMC	ENCSR828ZID	fastq	reads		2	2_1	https://www.encodeproject.org/files/ENCFF118YMC/@@download/ENCFF118YMC.fastq.gz
+ENCFF120AAW	ENCSR828ZID	fastq	reads		1	1_1	https://www.encodeproject.org/files/ENCFF120AAW/@@download/ENCFF120AAW.fastq.gz
+ENCFF924WZQ	ENCSR828ZID	fastq	reads		2	2_1	https://www.encodeproject.org/files/ENCFF924WZQ/@@download/ENCFF924WZQ.fastq.gz
+ENCFF570EJV	ENCSR953ZOA	bam	alignments	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF570EJV/@@download/ENCFF570EJV.bam
+ENCFF704FID	ENCSR953ZOA	bam	alignments	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF704FID/@@download/ENCFF704FID.bam
+ENCFF559GBT	ENCSR953ZOA	bigWig	minus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF559GBT/@@download/ENCFF559GBT.bigWig
+ENCFF961MIZ	ENCSR953ZOA	bigWig	minus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF961MIZ/@@download/ENCFF961MIZ.bigWig
+ENCFF148QBJ	ENCSR953ZOA	bigBed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF148QBJ/@@download/ENCFF148QBJ.bigBed
+ENCFF318RSO	ENCSR953ZOA	bed	peaks	GRCh38	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF318RSO/@@download/ENCFF318RSO.bed.gz
+ENCFF433CVR	ENCSR953ZOA	bigBed	peaks	GRCh38	1;2	1_1;2_1	https://www.encodeproject.org/files/ENCFF433CVR/@@download/ENCFF433CVR.bigBed
+ENCFF461FMC	ENCSR953ZOA	bigBed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF461FMC/@@download/ENCFF461FMC.bigBed
+ENCFF679HYT	ENCSR953ZOA	bed	peaks	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF679HYT/@@download/ENCFF679HYT.bed.gz
+ENCFF969JDI	ENCSR953ZOA	bed	peaks	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF969JDI/@@download/ENCFF969JDI.bed.gz
+ENCFF102VWD	ENCSR953ZOA	bigWig	plus strand signal of unique reads	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF102VWD/@@download/ENCFF102VWD.bigWig
+ENCFF988TCR	ENCSR953ZOA	bigWig	plus strand signal of unique reads	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF988TCR/@@download/ENCFF988TCR.bigWig
+ENCFF244ZIB	ENCSR953ZOA	fastq	reads		2	2_1	https://www.encodeproject.org/files/ENCFF244ZIB/@@download/ENCFF244ZIB.fastq.gz
+ENCFF935EPG	ENCSR953ZOA	fastq	reads		1	1_1	https://www.encodeproject.org/files/ENCFF935EPG/@@download/ENCFF935EPG.fastq.gz
+ENCFF210SBQ	ENCSR953ZOA	tsv	transcript quantifications	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF210SBQ/@@download/ENCFF210SBQ.tsv
+ENCFF276CHG	ENCSR953ZOA	tsv	transcript quantifications	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF276CHG/@@download/ENCFF276CHG.tsv
+ENCFF826OYP	ENCSR953ZOA	bam	unfiltered alignments	GRCh38	2	2_1	https://www.encodeproject.org/files/ENCFF826OYP/@@download/ENCFF826OYP.bam
+ENCFF827GTT	ENCSR953ZOA	bam	unfiltered alignments	GRCh38	1	1_1	https://www.encodeproject.org/files/ENCFF827GTT/@@download/ENCFF827GTT.bam

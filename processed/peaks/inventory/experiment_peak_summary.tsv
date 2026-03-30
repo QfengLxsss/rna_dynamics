@@ -1,0 +1,6 @@
+experiment_accession	target_label	biosample_term_name	n_manifest_files	n_existing_files	n_missing_files	n_empty_files	n_consistent_files	observed_column_counts	status	note
+ENCSR828ZID	HNRNPK	HepG2	3	3	0	0	0	1;2;1;2;4;5;1;3	manual_check	contains_inconsistent_column_counts
+ENCSR953ZOA	HNRNPK	K562	3	3	0	0	0	1;2;1;2;3;1;3	manual_check	contains_inconsistent_column_counts
+ENCSR187VEQ	TARDBP	HepG2	3	3	0	0	0	1;2;1;2;5	manual_check	contains_inconsistent_column_counts
+ENCSR584TCR	TARDBP	K562	3	3	0	0	2	1;1;2	manual_check	contains_inconsistent_column_counts
+ENCSR720BJU	TARDBP	K562	3	3	0	0	0	1;2	manual_check	contains_inconsistent_column_counts
