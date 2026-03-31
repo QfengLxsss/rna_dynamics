@@ -20,8 +20,13 @@ Main tasks:
 5. Summarize per experiment how many peak files were downloaded
 6. Flag obviously suspicious files (missing/empty/inconsistent)
 
+Important robustness updates:
+- Detect gzip by magic bytes, not filename suffix alone
+- Split columns on arbitrary whitespace, not only tabs
+- Better BED-like status classification
+
 Recommended usage:
-    cd ~/wangshuo/rna_dynamics
+    cd /data15/data15_5/junguang/wangshuo/rna_dynamics
     python scripts/03_processing/01_inventory_peak_files.py
 
 Optional:
@@ -117,8 +122,17 @@ def normalize_text(x: Any) -> str:
 
 
 def open_maybe_gzip(path: Path):
-    if path.suffix == ".gz":
+    """
+    Open plain text or gzip-compressed text file, regardless of filename suffix.
+    Detect gzip by magic bytes, not by extension alone.
+    """
+    with path.open("rb") as f:
+        magic = f.read(2)
+
+    # gzip magic number: 1f 8b
+    if magic == b"\x1f\x8b":
         return gzip.open(path, "rt", encoding="utf-8", errors="replace")
+
     return path.open("r", encoding="utf-8", errors="replace")
 
 
@@ -132,8 +146,8 @@ def inspect_bed_like_file(path: Path, preview_lines: int = 5) -> Tuple[int, str,
 
     Rules:
     - skip empty lines
-    - skip comment lines starting with '#' or 'track' or 'browser'
-    - use tab split
+    - skip comment/header-like lines
+    - split on arbitrary whitespace, not only tabs
     """
     kept_lines: List[str] = []
     col_counts: List[int] = []
@@ -144,12 +158,21 @@ def inspect_bed_like_file(path: Path, preview_lines: int = 5) -> Tuple[int, str,
             stripped = line.strip()
             if not stripped:
                 continue
+
             lower = stripped.lower()
-            if stripped.startswith("#") or lower.startswith("track") or lower.startswith("browser"):
+            if (
+                stripped.startswith("#")
+                or lower.startswith("track")
+                or lower.startswith("browser")
+            ):
+                continue
+
+            fields = stripped.split()
+            if not fields:
                 continue
 
             kept_lines.append(stripped)
-            col_counts.append(len(stripped.split("\t")))
+            col_counts.append(len(fields))
 
             if len(kept_lines) >= preview_lines:
                 break
@@ -188,11 +211,10 @@ def classify_file_status(
 
     if first_ncol < 3:
         return "invalid_bed_like", f"too_few_columns:{first_ncol}"
-
-    if first_ncol >= 3:
-        return "ok", f"bed_like_ncol:{first_ncol}"
-
-    return "manual_check", "unclassified"
+    elif first_ncol in {3, 4, 5, 6, 9, 10, 12}:
+        return "ok", f"standard_bed_like_ncol:{first_ncol}"
+    else:
+        return "ok", f"nonstandard_bed_like_ncol:{first_ncol}"
 
 
 def build_inventory_row(
@@ -213,7 +235,12 @@ def build_inventory_row(
 
     if abs_path.exists() and file_size_bytes > 0:
         try:
-            preview_line_count, first_data_line, inferred_column_count, column_count_consistent = inspect_bed_like_file(
+            (
+                preview_line_count,
+                first_data_line,
+                inferred_column_count,
+                column_count_consistent,
+            ) = inspect_bed_like_file(
                 abs_path,
                 preview_lines=preview_lines,
             )
@@ -307,9 +334,14 @@ def summarize_by_experiment(inventory_rows: List[Dict[str, Any]]) -> List[Dict[s
         else:
             inconsistent = any(normalize_text(r.get("column_count_consistent")) == "no" for r in rows)
             read_error = any(normalize_text(r.get("status")) == "read_error" for r in rows)
+            invalid_bed = any(normalize_text(r.get("status")) == "invalid_bed_like" for r in rows)
+
             if read_error:
                 status = "manual_check"
                 note = "contains_read_error"
+            elif invalid_bed:
+                status = "manual_check"
+                note = "contains_invalid_bed_like_file"
             elif inconsistent:
                 status = "manual_check"
                 note = "contains_inconsistent_column_counts"
@@ -450,6 +482,7 @@ def main() -> int:
     n_missing = sum(1 for r in inventory_rows if normalize_text(r.get("status")) == "missing")
     n_empty = sum(1 for r in inventory_rows if normalize_text(r.get("status")) in {"empty", "empty_or_no_data"})
     n_inconsistent = sum(1 for r in inventory_rows if normalize_text(r.get("status")) == "inconsistent_columns")
+    n_invalid = sum(1 for r in inventory_rows if normalize_text(r.get("status")) == "invalid_bed_like")
     n_read_error = sum(1 for r in inventory_rows if normalize_text(r.get("status")) == "read_error")
 
     log("", log_path)
@@ -462,6 +495,7 @@ def main() -> int:
     log(f"  Missing files          : {n_missing}", log_path)
     log(f"  Empty/no-data files    : {n_empty}", log_path)
     log(f"  Inconsistent columns   : {n_inconsistent}", log_path)
+    log(f"  Invalid BED-like files : {n_invalid}", log_path)
     log(f"  Read errors            : {n_read_error}", log_path)
     log("", log_path)
     log("[INFO] Experiment-level summary:", log_path)

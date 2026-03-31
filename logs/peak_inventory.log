@@ -35,3 +35,78 @@
 [2026-03-30 11:33:33]   ENCSR187VEQ | TARDBP | HepG2 | n=3 | 1;2;1;2;5 | manual_check
 [2026-03-30 11:33:33]   ENCSR584TCR | TARDBP | K562 | n=3 | 1;1;2 | manual_check
 [2026-03-30 11:33:33]   ENCSR720BJU | TARDBP | K562 | n=3 | 1;2 | manual_check
+[2026-03-30 11:48:19] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-03-30 11:48:19] [INFO] Manifest path: /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/manifest/download_manifest.tsv
+[2026-03-30 11:48:19] [INFO] Manifest rows to inspect: 15
+[2026-03-30 11:48:19] [INFO] Preview lines per file: 5
+[2026-03-30 11:48:19] [INFO] [1/15] Inspecting ENCFF288MWL
+[2026-03-30 11:48:19] [INFO] [2/15] Inspecting ENCFF754XAQ
+[2026-03-30 11:48:19] [INFO] [3/15] Inspecting ENCFF855CPQ
+[2026-03-30 11:48:19] [INFO] [4/15] Inspecting ENCFF318RSO
+[2026-03-30 11:48:19] [INFO] [5/15] Inspecting ENCFF679HYT
+[2026-03-30 11:48:19] [INFO] [6/15] Inspecting ENCFF969JDI
+[2026-03-30 11:48:19] [INFO] [7/15] Inspecting ENCFF421FJD
+[2026-03-30 11:48:19] [INFO] [8/15] Inspecting ENCFF626XAA
+[2026-03-30 11:48:19] [INFO] [9/15] Inspecting ENCFF673QBV
+[2026-03-30 11:48:19] [INFO] [10/15] Inspecting ENCFF037TVC
+[2026-03-30 11:48:19] [INFO] [11/15] Inspecting ENCFF606RXB
+[2026-03-30 11:48:19] [INFO] [12/15] Inspecting ENCFF669TNM
+[2026-03-30 11:48:19] [INFO] [13/15] Inspecting ENCFF265XPM
+[2026-03-30 11:48:19] [INFO] [14/15] Inspecting ENCFF381KTD
+[2026-03-30 11:48:19] [INFO] [15/15] Inspecting ENCFF593RED
+[2026-03-30 11:48:19] 
+[2026-03-30 11:48:19] [DONE] Peak inventory completed.
+[2026-03-30 11:48:19] [DONE] Inventory table: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/inventory/peak_file_inventory.tsv
+[2026-03-30 11:48:19] [DONE] Experiment summary: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/inventory/experiment_peak_summary.tsv
+[2026-03-30 11:48:19] 
+[2026-03-30 11:48:19] [INFO] File-level summary:
+[2026-03-30 11:48:19]   OK files               : 0
+[2026-03-30 11:48:19]   Missing files          : 0
+[2026-03-30 11:48:19]   Empty/no-data files    : 0
+[2026-03-30 11:48:19]   Inconsistent columns   : 15
+[2026-03-30 11:48:19]   Read errors            : 0
+[2026-03-30 11:48:19] 
+[2026-03-30 11:48:19] [INFO] Experiment-level summary:
+[2026-03-30 11:48:19]   ENCSR828ZID | HNRNPK | HepG2 | n=3 | 1;4;6;9;2;3;4;16;2;5;7;15 | manual_check
+[2026-03-30 11:48:19]   ENCSR953ZOA | HNRNPK | K562 | n=3 | 1;2;5;6;7;3;4;5;9;3;9;14 | manual_check
+[2026-03-30 11:48:19]   ENCSR187VEQ | TARDBP | HepG2 | n=3 | 2;3;5;10;2;4;12;18;2;7;14 | manual_check
+[2026-03-30 11:48:19]   ENCSR584TCR | TARDBP | K562 | n=3 | 1;2;4;5;1;3;4;1;5;6;10 | manual_check
+[2026-03-30 11:48:19]   ENCSR720BJU | TARDBP | K562 | n=3 | 1;2;4;15;1;2;4;16;1;5;6;11;15 | manual_check
+[2026-03-31 20:57:52] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-03-31 20:57:52] [INFO] Manifest path: /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/manifest/download_manifest.tsv
+[2026-03-31 20:57:52] [INFO] Manifest rows to inspect: 15
+[2026-03-31 20:57:52] [INFO] Preview lines per file: 5
+[2026-03-31 20:57:52] [INFO] [1/15] Inspecting ENCFF288MWL
+[2026-03-31 20:57:52] [INFO] [2/15] Inspecting ENCFF754XAQ
+[2026-03-31 20:57:52] [INFO] [3/15] Inspecting ENCFF855CPQ
+[2026-03-31 20:57:52] [INFO] [4/15] Inspecting ENCFF318RSO
+[2026-03-31 20:57:52] [INFO] [5/15] Inspecting ENCFF679HYT
+[2026-03-31 20:57:52] [INFO] [6/15] Inspecting ENCFF969JDI
+[2026-03-31 20:57:52] [INFO] [7/15] Inspecting ENCFF421FJD
+[2026-03-31 20:57:53] [INFO] [8/15] Inspecting ENCFF626XAA
+[2026-03-31 20:57:53] [INFO] [9/15] Inspecting ENCFF673QBV
+[2026-03-31 20:57:53] [INFO] [10/15] Inspecting ENCFF037TVC
+[2026-03-31 20:57:53] [INFO] [11/15] Inspecting ENCFF606RXB
+[2026-03-31 20:57:53] [INFO] [12/15] Inspecting ENCFF669TNM
+[2026-03-31 20:57:53] [INFO] [13/15] Inspecting ENCFF265XPM
+[2026-03-31 20:57:53] [INFO] [14/15] Inspecting ENCFF381KTD
+[2026-03-31 20:57:53] [INFO] [15/15] Inspecting ENCFF593RED
+[2026-03-31 20:57:53] 
+[2026-03-31 20:57:53] [DONE] Peak inventory completed.
+[2026-03-31 20:57:53] [DONE] Inventory table: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/inventory/peak_file_inventory.tsv
+[2026-03-31 20:57:53] [DONE] Experiment summary: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/inventory/experiment_peak_summary.tsv
+[2026-03-31 20:57:53] 
+[2026-03-31 20:57:53] [INFO] File-level summary:
+[2026-03-31 20:57:53]   OK files               : 15
+[2026-03-31 20:57:53]   Missing files          : 0
+[2026-03-31 20:57:53]   Empty/no-data files    : 0
+[2026-03-31 20:57:53]   Inconsistent columns   : 0
+[2026-03-31 20:57:53]   Invalid BED-like files : 0
+[2026-03-31 20:57:53]   Read errors            : 0
+[2026-03-31 20:57:53] 
+[2026-03-31 20:57:53] [INFO] Experiment-level summary:
+[2026-03-31 20:57:53]   ENCSR828ZID | HNRNPK | HepG2 | n=3 | 10 | ok
+[2026-03-31 20:57:53]   ENCSR953ZOA | HNRNPK | K562 | n=3 | 10 | ok
+[2026-03-31 20:57:53]   ENCSR187VEQ | TARDBP | HepG2 | n=3 | 10 | ok
+[2026-03-31 20:57:53]   ENCSR584TCR | TARDBP | K562 | n=3 | 10 | ok
+[2026-03-31 20:57:53]   ENCSR720BJU | TARDBP | K562 | n=3 | 10 | ok
