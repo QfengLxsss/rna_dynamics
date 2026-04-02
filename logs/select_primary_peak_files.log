@@ -1,0 +1,28 @@
+[2026-03-31 21:15:44] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-03-31 21:15:44] [INFO] files.tsv: /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/encode/files.tsv
+[2026-03-31 21:15:44] [INFO] manifest.tsv: /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/manifest/download_manifest.tsv
+[2026-03-31 21:15:44] [INFO] inventory.tsv: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/inventory/peak_file_inventory.tsv
+[2026-03-31 21:15:44] 
+[2026-03-31 21:15:44] [DONE] Primary peak selection completed.
+[2026-03-31 21:15:44] [DONE] Primary output: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/selected/primary_peak_files.tsv
+[2026-03-31 21:15:44] [DONE] Ranking output: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/selected/peak_file_ranking.tsv
+[2026-03-31 21:15:44] 
+[2026-03-31 21:15:44]   ENCSR828ZID | HNRNPK | HepG2 | ENCFF754XAQ | peaks | score=130
+[2026-03-31 21:15:44]   ENCSR953ZOA | HNRNPK | K562 | ENCFF969JDI | peaks | score=135
+[2026-03-31 21:15:44]   ENCSR187VEQ | TARDBP | HepG2 | ENCFF626XAA | peaks | score=135
+[2026-03-31 21:15:44]   ENCSR584TCR | TARDBP | K562 | ENCFF606RXB | peaks | score=130
+[2026-03-31 21:15:44]   ENCSR720BJU | TARDBP | K562 | ENCFF381KTD | peaks | score=125
+[2026-03-31 21:34:47] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-03-31 21:34:47] [INFO] files.tsv: /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/encode/files.tsv
+[2026-03-31 21:34:47] [INFO] manifest.tsv: /data15/data15_5/junguang/wangshuo/rna_dynamics/metadata/manifest/download_manifest.tsv
+[2026-03-31 21:34:47] [INFO] inventory.tsv: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/inventory/peak_file_inventory.tsv
+[2026-03-31 21:34:50] 
+[2026-03-31 21:34:50] [DONE] Primary peak selection completed.
+[2026-03-31 21:34:50] [DONE] Primary output: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/selected/primary_peak_files.tsv
+[2026-03-31 21:34:50] [DONE] Ranking output: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/selected/peak_file_ranking.tsv
+[2026-03-31 21:34:50] 
+[2026-03-31 21:34:50]   ENCSR828ZID | HNRNPK | HepG2 | ENCFF754XAQ | peaks | peak_count=159594 | score=190
+[2026-03-31 21:34:50]   ENCSR953ZOA | HNRNPK | K562 | ENCFF969JDI | peaks | peak_count=182444 | score=195
+[2026-03-31 21:34:50]   ENCSR187VEQ | TARDBP | HepG2 | ENCFF626XAA | peaks | peak_count=160498 | score=195
+[2026-03-31 21:34:50]   ENCSR584TCR | TARDBP | K562 | ENCFF606RXB | peaks | peak_count=107504 | score=190
+[2026-03-31 21:34:50]   ENCSR720BJU | TARDBP | K562 | ENCFF381KTD | peaks | peak_count=42044 | score=185

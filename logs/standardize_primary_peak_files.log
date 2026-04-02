@@ -1,0 +1,19 @@
+[2026-04-02 21:46:48] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-02 21:46:48] [INFO] Primary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/selected/primary_peak_files.tsv
+[2026-04-02 21:46:48] [INFO] Selected files to standardize: 5
+[2026-04-02 21:46:48] [INFO] [1/5] Standardizing ENCFF754XAQ | HNRNPK | HepG2 | ENCSR828ZID
+[2026-04-02 21:46:51] [INFO] [2/5] Standardizing ENCFF969JDI | HNRNPK | K562 | ENCSR953ZOA
+[2026-04-02 21:46:55] [INFO] [3/5] Standardizing ENCFF626XAA | TARDBP | HepG2 | ENCSR187VEQ
+[2026-04-02 21:46:57] [INFO] [4/5] Standardizing ENCFF606RXB | TARDBP | K562 | ENCSR584TCR
+[2026-04-02 21:46:59] [INFO] [5/5] Standardizing ENCFF381KTD | TARDBP | K562 | ENCSR720BJU
+[2026-04-02 21:47:00] 
+[2026-04-02 21:47:00] [DONE] Standardization completed.
+[2026-04-02 21:47:00] [DONE] Summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/standardized/standardized_peak_file_summary.tsv
+[2026-04-02 21:47:00] [INFO] OK files      : 5
+[2026-04-02 21:47:00] [INFO] Error files   : 0
+[2026-04-02 21:47:00] [INFO] Missing files : 0
+[2026-04-02 21:47:00]   ENCSR828ZID | HNRNPK | HepG2 | ENCFF754XAQ | written=159594 | ok
+[2026-04-02 21:47:00]   ENCSR953ZOA | HNRNPK | K562 | ENCFF969JDI | written=182444 | ok
+[2026-04-02 21:47:00]   ENCSR187VEQ | TARDBP | HepG2 | ENCFF626XAA | written=160498 | ok
+[2026-04-02 21:47:00]   ENCSR584TCR | TARDBP | K562 | ENCFF606RXB | written=107504 | ok
+[2026-04-02 21:47:00]   ENCSR720BJU | TARDBP | K562 | ENCFF381KTD | written=42044 | ok
