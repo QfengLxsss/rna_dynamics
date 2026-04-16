@@ -1,0 +1,17 @@
+[2026-04-16 21:58:44] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-16 21:58:44] [INFO] Annotation summary input: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/annotation_summary.tsv
+[2026-04-16 21:58:44] [INFO] Input rows: 5
+[2026-04-16 21:58:44] 
+[2026-04-16 21:58:44] [DONE] Peak region distribution summarization completed.
+[2026-04-16 21:58:44] [DONE] Long TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/sample_region_distribution_long.tsv
+[2026-04-16 21:58:44] [DONE] Sample wide TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/sample_region_distribution_wide.tsv
+[2026-04-16 21:58:44] [DONE] Target+biosample TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/target_biosample_region_distribution.tsv
+[2026-04-16 21:58:44] [DONE] Target TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/target_region_distribution.tsv
+[2026-04-16 21:58:44] [DONE] Biosample TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/biosample_region_distribution.tsv
+[2026-04-16 21:58:44] [DONE] Report TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/region_distribution_report.tsv
+[2026-04-16 21:58:44] 
+[2026-04-16 21:58:44]   HNRNPK | HepG2 | ENCSR828ZID | ENCFF754XAQ | dominant=intron | dominant_pct=80.8815 | non_intergenic_pct=99.9242
+[2026-04-16 21:58:44]   HNRNPK | K562 | ENCSR953ZOA | ENCFF969JDI | dominant=intron | dominant_pct=70.7987 | non_intergenic_pct=99.9013
+[2026-04-16 21:58:44]   TARDBP | HepG2 | ENCSR187VEQ | ENCFF626XAA | dominant=intron | dominant_pct=80.3649 | non_intergenic_pct=99.9495
+[2026-04-16 21:58:44]   TARDBP | K562 | ENCSR584TCR | ENCFF606RXB | dominant=intron | dominant_pct=63.1651 | non_intergenic_pct=99.9405
+[2026-04-16 21:58:44]   TARDBP | K562 | ENCSR720BJU | ENCFF381KTD | dominant=intron | dominant_pct=67.5578 | non_intergenic_pct=99.931

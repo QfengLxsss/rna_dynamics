@@ -1,0 +1,7 @@
+comparison_type	left_target_label	left_biosample_term_name	left_experiment_accession	left_selected_file_accession	right_target_label	right_biosample_term_name	right_experiment_accession	right_selected_file_accession	left_n_peaks	right_n_peaks	dominant_shift_region	dominant_shift_delta_fraction	dominant_shift_delta_percent	dominant_shift_abs_delta_percent	left_dominant_region	left_dominant_region_percent	right_dominant_region	right_dominant_region_percent
+sample_same_biosample_diff_target	HNRNPK	K562	ENCSR953ZOA	ENCFF969JDI	TARDBP	K562	ENCSR584TCR	ENCFF606RXB	182444	107504	CDS	0.126952	12.6952	12.6952	intron	70.7987	intron	63.1651
+sample_same_biosample_diff_target	HNRNPK	K562	ENCSR953ZOA	ENCFF969JDI	TARDBP	K562	ENCSR720BJU	ENCFF381KTD	182444	42044	CDS	0.036949	3.6949	3.6949	intron	70.7987	intron	67.5578
+sample_same_biosample_diff_target	HNRNPK	HepG2	ENCSR828ZID	ENCFF754XAQ	TARDBP	HepG2	ENCSR187VEQ	ENCFF626XAA	159594	160498	CDS	0.021469	2.1469	2.1469	intron	80.8815	intron	80.3649
+sample_same_target_diff_biosample	TARDBP	HepG2	ENCSR187VEQ	ENCFF626XAA	TARDBP	K562	ENCSR584TCR	ENCFF606RXB	160498	107504	intron	-0.171998	-17.1998	17.1998	intron	80.3649	intron	63.1651
+sample_same_target_diff_biosample	TARDBP	HepG2	ENCSR187VEQ	ENCFF626XAA	TARDBP	K562	ENCSR720BJU	ENCFF381KTD	160498	42044	intron	-0.128071	-12.8071	12.8071	intron	80.3649	intron	67.5578
+sample_same_target_diff_biosample	HNRNPK	HepG2	ENCSR828ZID	ENCFF754XAQ	HNRNPK	K562	ENCSR953ZOA	ENCFF969JDI	159594	182444	intron	-0.100828	-10.0828	10.0828	intron	80.8815	intron	70.7987

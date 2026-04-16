@@ -1,0 +1,6 @@
+target_label	biosample_term_name	experiment_accession	selected_file_accession	n_peaks	n_five_prime_utr	n_three_prime_utr	n_utr	n_CDS	n_exon	n_intron	n_gene	n_intergenic	annotation_rate_non_intergenic	status	note
+HNRNPK	HepG2	ENCSR828ZID	ENCFF754XAQ	159594	0	0	18024	6039	5028	129082	1300	121	0.999242	ok	peak_region_annotation_completed
+HNRNPK	K562	ENCSR953ZOA	ENCFF969JDI	182444	0	0	28877	15958	6766	129168	1495	180	0.999013	ok	peak_region_annotation_completed
+TARDBP	HepG2	ENCSR187VEQ	ENCFF626XAA	160498	0	0	15709	9519	4261	128984	1944	81	0.999495	ok	peak_region_annotation_completed
+TARDBP	K562	ENCSR584TCR	ENCFF606RXB	107504	0	0	13089	23051	2825	67905	570	64	0.999405	ok	peak_region_annotation_completed
+TARDBP	K562	ENCSR720BJU	ENCFF381KTD	42044	0	0	6291	5231	1568	28404	521	29	0.99931	ok	peak_region_annotation_completed

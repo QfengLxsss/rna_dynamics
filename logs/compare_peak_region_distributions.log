@@ -1,0 +1,24 @@
+[2026-04-16 22:26:46] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-16 22:26:46] [INFO] Sample wide input: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/sample_region_distribution_wide.tsv
+[2026-04-16 22:26:46] [INFO] Aggregated input: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/target_biosample_region_distribution.tsv
+[2026-04-16 22:26:46] [INFO] Sample rows: 5
+[2026-04-16 22:26:46] [INFO] Aggregated rows: 4
+[2026-04-16 22:26:46] 
+[2026-04-16 22:26:46] [DONE] Peak region distribution comparison completed.
+[2026-04-16 22:26:46] [DONE] Sample long TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/comparisons/sample_pairwise_region_differences_long.tsv
+[2026-04-16 22:26:46] [DONE] Sample summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/comparisons/sample_pairwise_region_differences_summary.tsv
+[2026-04-16 22:26:46] [DONE] Aggregated long TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/comparisons/aggregated_pairwise_region_differences_long.tsv
+[2026-04-16 22:26:46] [DONE] Aggregated summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/comparisons/aggregated_pairwise_region_differences_summary.tsv
+[2026-04-16 22:26:46] 
+[2026-04-16 22:26:46] [INFO] Top sample-level shifts:
+[2026-04-16 22:26:46]   sample_same_biosample_diff_target | HNRNPK/K562/ENCSR953ZOA | TARDBP/K562/ENCSR584TCR | region=CDS | abs_delta_pct=12.6952
+[2026-04-16 22:26:46]   sample_same_biosample_diff_target | HNRNPK/K562/ENCSR953ZOA | TARDBP/K562/ENCSR720BJU | region=CDS | abs_delta_pct=3.6949
+[2026-04-16 22:26:46]   sample_same_biosample_diff_target | HNRNPK/HepG2/ENCSR828ZID | TARDBP/HepG2/ENCSR187VEQ | region=CDS | abs_delta_pct=2.1469
+[2026-04-16 22:26:46]   sample_same_target_diff_biosample | TARDBP/HepG2/ENCSR187VEQ | TARDBP/K562/ENCSR584TCR | region=intron | abs_delta_pct=17.1998
+[2026-04-16 22:26:46]   sample_same_target_diff_biosample | TARDBP/HepG2/ENCSR187VEQ | TARDBP/K562/ENCSR720BJU | region=intron | abs_delta_pct=12.8071
+[2026-04-16 22:26:46]   sample_same_target_diff_biosample | HNRNPK/HepG2/ENCSR828ZID | HNRNPK/K562/ENCSR953ZOA | region=intron | abs_delta_pct=10.0828
+[2026-04-16 22:26:46] [INFO] Top aggregated shifts:
+[2026-04-16 22:26:46]   aggregated_same_biosample_diff_target | HNRNPK/K562 | TARDBP/K562 | region=CDS | abs_delta_pct=10.1649
+[2026-04-16 22:26:46]   aggregated_same_biosample_diff_target | HNRNPK/HepG2 | TARDBP/HepG2 | region=CDS | abs_delta_pct=2.1469
+[2026-04-16 22:26:46]   aggregated_same_target_diff_biosample | TARDBP/HepG2 | TARDBP/K562 | region=intron | abs_delta_pct=15.9648
+[2026-04-16 22:26:46]   aggregated_same_target_diff_biosample | HNRNPK/HepG2 | HNRNPK/K562 | region=intron | abs_delta_pct=10.0828

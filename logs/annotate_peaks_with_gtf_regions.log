@@ -1,0 +1,27 @@
+[2026-04-16 17:41:02] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-16 17:41:02] [INFO] Annotation input manifest: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotation_inputs/annotation_input_manifest.tsv
+[2026-04-16 17:41:02] [INFO] GTF path: /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/annotations/gencode.v49.basic.annotation.gtf.gz
+[2026-04-16 17:41:02] [INFO] Files to annotate: 5
+[2026-04-16 17:41:02] [INFO] Parsing GTF: /data15/data15_5/junguang/wangshuo/rna_dynamics/raw/annotations/gencode.v49.basic.annotation.gtf.gz
+[2026-04-16 17:43:19] [INFO] GTF lines parsed: 5868512
+[2026-04-16 17:43:19] [INFO] GTF feature intervals kept: 5214492
+[2026-04-16 17:43:19] [INFO] Derived introns: 2245461
+[2026-04-16 17:43:19] [INFO] GTF chrom style: chr_prefixed | has_chr_prefix=yes
+[2026-04-16 17:43:19] [INFO] [1/5] Annotating ENCFF754XAQ | HNRNPK | HepG2 | ENCSR828ZID
+[2026-04-16 17:43:44] [INFO] [2/5] Annotating ENCFF969JDI | HNRNPK | K562 | ENCSR953ZOA
+[2026-04-16 17:44:08] [INFO] [3/5] Annotating ENCFF626XAA | TARDBP | HepG2 | ENCSR187VEQ
+[2026-04-16 17:44:29] [INFO] [4/5] Annotating ENCFF606RXB | TARDBP | K562 | ENCSR584TCR
+[2026-04-16 17:44:44] [INFO] [5/5] Annotating ENCFF381KTD | TARDBP | K562 | ENCSR720BJU
+[2026-04-16 17:44:50] 
+[2026-04-16 17:44:50] [DONE] Peak region annotation completed.
+[2026-04-16 17:44:50] [DONE] File manifest: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/annotation_file_manifest.tsv
+[2026-04-16 17:44:50] [DONE] Summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/annotation_summary.tsv
+[2026-04-16 17:44:50] [INFO] OK files         : 5
+[2026-04-16 17:44:50] [INFO] Error files      : 0
+[2026-04-16 17:44:50] [INFO] Chrom mismatches : 0
+[2026-04-16 17:44:50] [INFO] Missing inputs   : 0
+[2026-04-16 17:44:50]   ENCSR828ZID | HNRNPK | HepG2 | ENCFF754XAQ | n_peaks=159594 | CDS=6039 | intron=129082 | intergenic=121 | annot_rate=0.999242
+[2026-04-16 17:44:50]   ENCSR953ZOA | HNRNPK | K562 | ENCFF969JDI | n_peaks=182444 | CDS=15958 | intron=129168 | intergenic=180 | annot_rate=0.999013
+[2026-04-16 17:44:50]   ENCSR187VEQ | TARDBP | HepG2 | ENCFF626XAA | n_peaks=160498 | CDS=9519 | intron=128984 | intergenic=81 | annot_rate=0.999495
+[2026-04-16 17:44:50]   ENCSR584TCR | TARDBP | K562 | ENCFF606RXB | n_peaks=107504 | CDS=23051 | intron=67905 | intergenic=64 | annot_rate=0.999405
+[2026-04-16 17:44:50]   ENCSR720BJU | TARDBP | K562 | ENCFF381KTD | n_peaks=42044 | CDS=5231 | intron=28404 | intergenic=29 | annot_rate=0.99931

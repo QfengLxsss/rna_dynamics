@@ -1,0 +1,28 @@
+[2026-04-16 22:37:32] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-16 22:37:32] [INFO] Sample rows: 5
+[2026-04-16 22:37:32] [INFO] Target+biosample rows: 4
+[2026-04-16 22:37:32] [INFO] Sample comparison rows: 0
+[2026-04-16 22:37:32] [INFO] Aggregated comparison rows: 0
+[2026-04-16 22:37:33] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/sample_region_distribution_stacked.png
+[2026-04-16 22:37:34] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/target_biosample_region_distribution_stacked.png
+[2026-04-16 22:37:38] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/sample_region_distribution_heatmap.png
+[2026-04-16 22:37:40] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/target_biosample_region_distribution_heatmap.png
+[2026-04-16 22:37:40] [WARN] No rows for top shifts plot: sample_top_region_shifts.png
+[2026-04-16 22:37:40] [WARN] No rows for top shifts plot: aggregated_top_region_shifts.png
+[2026-04-16 22:37:40] 
+[2026-04-16 22:37:40] [DONE] Plotting completed.
+[2026-04-16 22:37:40] [DONE] Plot directory: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots
+[2026-04-16 22:50:14] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-16 22:50:14] [INFO] Sample rows: 5
+[2026-04-16 22:50:14] [INFO] Target+biosample rows: 4
+[2026-04-16 22:50:14] [INFO] Sample comparison rows: 6
+[2026-04-16 22:50:14] [INFO] Aggregated comparison rows: 4
+[2026-04-16 22:50:16] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/sample_region_distribution_stacked.png
+[2026-04-16 22:50:17] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/target_biosample_region_distribution_stacked.png
+[2026-04-16 22:50:21] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/sample_region_distribution_heatmap.png
+[2026-04-16 22:50:24] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/target_biosample_region_distribution_heatmap.png
+[2026-04-16 22:50:25] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/sample_top_region_shifts.png
+[2026-04-16 22:50:25] [DONE] Wrote plot: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots/aggregated_top_region_shifts.png
+[2026-04-16 22:50:25] 
+[2026-04-16 22:50:25] [DONE] Plotting completed.
+[2026-04-16 22:50:25] [DONE] Plot directory: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/plots

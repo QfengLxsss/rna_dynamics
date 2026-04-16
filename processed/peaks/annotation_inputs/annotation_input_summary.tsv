@@ -1,0 +1,6 @@
+target_label	biosample_term_name	experiment_accession	selected_file_accession	n_peaks	n_unique_chromosomes	top_chromosomes	chrom_style	has_chr_prefix	status	note
+HNRNPK	HepG2	ENCSR828ZID	ENCFF754XAQ	159594	31	chr2:13637;chr17:11852;chr1:11522;chr16:10255;chr7:9696;chr6:9493;chr19:9143;chr3:9121;chr11:8092;chr20:7491	chr_prefixed	yes	ok	annotation_ready_bed6_created
+HNRNPK	K562	ENCSR953ZOA	ENCFF969JDI	182444	32	chr1:19417;chr7:12679;chr2:12031;chr19:11360;chr17:10403;chr3:9837;chr6:9710;chr16:9456;chr11:9268;chr12:8290	chr_prefixed	yes	ok	annotation_ready_bed6_created
+TARDBP	HepG2	ENCSR187VEQ	ENCFF626XAA	160498	30	chr2:15948;chr1:12451;chr3:10433;chr7:10414;chr6:9624;chr17:8936;chr11:7965;chr10:7711;chr16:7703;chr12:6737	chr_prefixed	yes	ok	annotation_ready_bed6_created
+TARDBP	K562	ENCSR584TCR	ENCFF606RXB	107504	30	chr1:11873;chr2:7719;chr7:7262;chr3:6519;chr6:6193;chr17:5495;chr11:5253;chr5:5227;chr12:5227;chr19:5046	chr_prefixed	yes	ok	annotation_ready_bed6_created
+TARDBP	K562	ENCSR720BJU	ENCFF381KTD	42044	28	chr1:4381;chr19:3048;chr7:2963;chr16:2715;chr2:2556;chr17:2378;chr11:2097;chr3:2096;chr6:2091;chr12:1851	chr_prefixed	yes	ok	annotation_ready_bed6_created

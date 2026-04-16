@@ -1,0 +1,21 @@
+[2026-04-16 17:12:34] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-16 17:12:34] [INFO] Primary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/selected/primary_peak_files.tsv
+[2026-04-16 17:12:34] [INFO] Standardized summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/standardized/standardized_peak_file_summary.tsv
+[2026-04-16 17:12:34] [INFO] Files to prepare: 5
+[2026-04-16 17:12:34] [INFO] [1/5] Preparing annotation input for ENCFF754XAQ | HNRNPK | HepG2 | ENCSR828ZID
+[2026-04-16 17:12:36] [INFO] [2/5] Preparing annotation input for ENCFF969JDI | HNRNPK | K562 | ENCSR953ZOA
+[2026-04-16 17:12:39] [INFO] [3/5] Preparing annotation input for ENCFF626XAA | TARDBP | HepG2 | ENCSR187VEQ
+[2026-04-16 17:12:41] [INFO] [4/5] Preparing annotation input for ENCFF606RXB | TARDBP | K562 | ENCSR584TCR
+[2026-04-16 17:12:43] [INFO] [5/5] Preparing annotation input for ENCFF381KTD | TARDBP | K562 | ENCSR720BJU
+[2026-04-16 17:12:44] 
+[2026-04-16 17:12:44] [DONE] Annotation input preparation completed.
+[2026-04-16 17:12:44] [DONE] Manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotation_inputs/annotation_input_manifest.tsv
+[2026-04-16 17:12:44] [DONE] Summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotation_inputs/annotation_input_summary.tsv
+[2026-04-16 17:12:44] [INFO] OK files      : 5
+[2026-04-16 17:12:44] [INFO] Error files   : 0
+[2026-04-16 17:12:44] [INFO] Missing files : 0
+[2026-04-16 17:12:44]   ENCSR828ZID | HNRNPK | HepG2 | ENCFF754XAQ | n_peaks=159594 | chr_prefixed | ok
+[2026-04-16 17:12:44]   ENCSR953ZOA | HNRNPK | K562 | ENCFF969JDI | n_peaks=182444 | chr_prefixed | ok
+[2026-04-16 17:12:44]   ENCSR187VEQ | TARDBP | HepG2 | ENCFF626XAA | n_peaks=160498 | chr_prefixed | ok
+[2026-04-16 17:12:44]   ENCSR584TCR | TARDBP | K562 | ENCFF606RXB | n_peaks=107504 | chr_prefixed | ok
+[2026-04-16 17:12:44]   ENCSR720BJU | TARDBP | K562 | ENCFF381KTD | n_peaks=42044 | chr_prefixed | ok
