@@ -1,0 +1,22 @@
+[2026-04-20 21:28:01] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 21:28:01] [INFO] Top-by-set TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/top_candidate_genes_by_peak_set.tsv
+[2026-04-20 21:28:01] [INFO] Candidate overview TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/candidate_gene_overview.tsv
+[2026-04-20 21:28:01] [INFO] Candidate recurrence TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/candidate_gene_recurrence.tsv
+[2026-04-20 21:28:01] [INFO] Candidate set summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/candidate_gene_set_summary.tsv
+[2026-04-20 21:28:01] [INFO] Eligible peak sets: 4
+[2026-04-20 21:28:01] [INFO] [1/4] Exported sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS | n=20
+[2026-04-20 21:28:01] [INFO] [2/4] Exported sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron | n=20
+[2026-04-20 21:28:01] [INFO] [3/4] Exported sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS | n=20
+[2026-04-20 21:28:01] [INFO] [4/4] Exported sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron | n=20
+[2026-04-20 21:28:01] 
+[2026-04-20 21:28:01] [DONE] Functional gene list preparation completed.
+[2026-04-20 21:28:01] [DONE] Manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/functional_inputs/functional_gene_list_manifest.tsv
+[2026-04-20 21:28:01] [DONE] Summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/functional_inputs/functional_gene_list_summary.tsv
+[2026-04-20 21:28:01] [DONE] Union gene symbols: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/functional_inputs/combined/selected_sets_union.gene_symbols.txt
+[2026-04-20 21:28:01] [DONE] Union gene IDs: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/functional_inputs/combined/selected_sets_union.gene_ids.txt
+[2026-04-20 21:28:01] [DONE] Recurrent genes TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/functional_inputs/combined/recurrent_genes_min2.tsv
+[2026-04-20 21:28:01] [INFO] Top exported functional sets:
+[2026-04-20 21:28:01]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron | top_gene=PTPRN2 | top_hits=1259 | top5=PTPRN2;LRMDA;PLCB1;SHANK2;MAGI1
+[2026-04-20 21:28:01]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron | top_gene=SMYD3 | top_hits=208 | top5=SMYD3;PRKCB;MGC4859;CCDC26;ARL15
+[2026-04-20 21:28:01]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS | top_gene=APOB | top_hits=119 | top5=APOB;FN1;LAMA5;TF;ABCC2
+[2026-04-20 21:28:01]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS | top_gene=MACF1 | top_hits=56 | top5=MACF1;KMT2C;RNF213;UBR4;TPR

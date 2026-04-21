@@ -3,7 +3,6 @@
 **Author**：wangshuo  
 **Date**：2026-04-16  
 **Project**：RNA Dynamics / RBP Binding Site Collection  
-**Version**：v1.0
 
 ## 1. 文档目的
 
@@ -12,7 +11,7 @@
 
 当前所有结论都应被视为：
 
-> **探索性发现（exploratory findings）**  
+> **探索性发现**  
 > 用于提出候选假设，而不是直接作为普适性生物学定论。
 
 ---
@@ -60,7 +59,7 @@
 → 区域组成汇总
 → 区域组成比较
 → 绘图展示
-````
+```
 
 当前项目已经从“数据整理阶段”进入“探索性结果解释阶段”。
 
@@ -99,6 +98,14 @@
 ---
 
 ## 5. 第一轮探索性结果：最核心的现象
+
+本节中的核心结论来自区域注释汇总表和区域组成比较表。为了让这些结果更直观，下面加入当前已经绘制出的关键图形，用于辅助判断主要模式是否清晰、稳定。
+
+### 图 1：不同样本的 peak 区域组成
+
+![Sample-level region distribution](../processed/peaks/annotations/region_distribution/plots/sample_region_distribution_stacked.png)
+
+*图 1 展示 5 个主 peak 文件在不同区域类别中的组成比例。该图最直接支持“当前所有样本均以 intron peaks 为主”这一观察。*
 
 ### 现象 1：所有样本都以 intron peaks 为主
 
@@ -192,6 +199,18 @@
 > HepG2 中 HNRNPK 与 TARDBP 的整体区域组成更接近，而 K562 更容易拉开两者的差异。
 
 ---
+
+### 图 2：sample-level 区域组成变化最强的比较
+
+![Sample-level top region shifts](../processed/peaks/annotations/region_distribution/plots/sample_top_region_shifts.png)
+
+*图 2 展示 sample-level pairwise comparison 中区域组成变化最明显的比较。该图支持两个 round 1 重点信号：`TARDBP | HepG2 vs K562` 的 intron 差异，以及 `HNRNPK vs TARDBP in K562` 的 CDS 差异。*
+
+### 图 3：聚合层面的区域组成变化
+
+![Aggregated top region shifts](../processed/peaks/annotations/region_distribution/plots/aggregated_top_region_shifts.png)
+
+*图 3 展示按 target 与 biosample 聚合后的 top region shifts。该图用于辅助判断 sample-level 观察是否仍能在聚合层面得到支持。*
 
 ## 6. 当前最值得关注的优先比较对象
 
@@ -292,18 +311,18 @@
 
 ---
 
-## 10. 下一步探索性深挖建议
+## 10. 下一步计划
 
-当前最合理的下一步，不是立刻全面扩充样本，而是围绕 priority comparisons 继续深入：
+围绕 priority comparisons 继续深入：
 
-### 建议方向 A：提取差异 peak 集
+### 方向 A：提取差异 peak 集
 
 优先提取：
 
 * `TARDBP: HepG2 vs K562` 的 intron-specific / shared peaks
 * `HNRNPK vs TARDBP in K562` 的 CDS-specific / shared peaks
 
-### 建议方向 B：映射到基因层
+### 方向 B：映射到基因层
 
 从这些差异 peak 集中提取：
 
@@ -311,7 +330,7 @@
 * overlap gene names
 * top genes
 
-### 建议方向 C：做轻量功能解释
+### 方向 C：做轻量功能解释
 
 评估候选基因是否富集于：
 

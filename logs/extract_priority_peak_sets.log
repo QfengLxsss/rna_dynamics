@@ -1,0 +1,13 @@
+[2026-04-20 16:38:46] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 16:38:46] [INFO] Priority TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/exploratory_priority_comparisons.tsv
+[2026-04-20 16:38:46] [INFO] Standardized summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/standardized/standardized_peak_file_summary.tsv
+[2026-04-20 16:38:46] [INFO] Annotation file manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/annotation_file_manifest.tsv
+[2026-04-20 16:38:46] [INFO] Eligible priority rows: 1
+[2026-04-20 16:38:46] [INFO] [1/1] Extracting priority_1 | sample | sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB
+[2026-04-20 16:38:46] 
+[2026-04-20 16:38:46] [DONE] Priority peak set extraction completed.
+[2026-04-20 16:38:46] [DONE] Output manifest: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/comparison_peak_set_manifest.tsv
+[2026-04-20 16:38:46] [INFO] OK rows       : 1
+[2026-04-20 16:38:46] [INFO] Skipped rows  : 0
+[2026-04-20 16:38:46] [INFO] Problem rows  : 0
+[2026-04-20 16:38:46]   priority_1 | sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | processed/peaks/comparison_sets/pairs/sample_TARDBP_HepG2_ENCSR187VEQ_ENCFF626XAA_VS_TARDBP_K562_ENCSR584TCR_ENCFF606RXB/left.standardized.bed | processed/peaks/comparison_sets/pairs/sample_TARDBP_HepG2_ENCSR187VEQ_ENCFF626XAA_VS_TARDBP_K562_ENCSR584TCR_ENCFF606RXB/right.standardized.bed

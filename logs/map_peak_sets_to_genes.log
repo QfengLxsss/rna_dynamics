@@ -1,0 +1,54 @@
+[2026-04-20 17:18:55] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 17:18:55] [INFO] Region file manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/by_region/region_specific_file_manifest.tsv
+[2026-04-20 17:18:55] [INFO] Region summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/by_region/region_specific_peak_summary.tsv
+[2026-04-20 17:18:55] [INFO] Eligible region subsets: 8
+[2026-04-20 17:18:55] [INFO] [1/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS
+[2026-04-20 17:18:56] [INFO] [2/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron
+[2026-04-20 17:19:09] [INFO] [3/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS
+[2026-04-20 17:19:12] [INFO] [4/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron
+[2026-04-20 17:19:17] [INFO] [5/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | CDS
+[2026-04-20 17:19:17] [INFO] [6/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | intron
+[2026-04-20 17:19:22] [INFO] [7/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | CDS
+[2026-04-20 17:19:23] [INFO] [8/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | intron
+[2026-04-20 17:19:27] 
+[2026-04-20 17:19:27] [DONE] Peak-set to gene mapping completed.
+[2026-04-20 17:19:27] [DONE] Manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/gene_mapping/peak_set_gene_mapping_manifest.tsv
+[2026-04-20 17:19:27] [DONE] Summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/gene_mapping/peak_set_gene_mapping_summary.tsv
+[2026-04-20 17:19:27] [INFO] OK rows      : 8
+[2026-04-20 17:19:27] [INFO] Problem rows : 0
+[2026-04-20 17:19:27] [INFO] Top mapped subsets:
+[2026-04-20 17:19:27]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron | genes=14941 | top_gene= | top_hits=1154251
+[2026-04-20 17:19:27]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron | genes=8936 | top_gene= | top_hits=431844
+[2026-04-20 17:19:27]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | intron | genes=8058 | top_gene= | top_hits=412335
+[2026-04-20 17:19:27]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | intron | genes=8054 | top_gene= | top_hits=461593
+[2026-04-20 17:19:27]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS | genes=5812 | top_gene= | top_hits=259587
+[2026-04-20 17:19:27]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS | genes=2933 | top_gene= | top_hits=90659
+[2026-04-20 17:19:27]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | CDS | genes=1300 | top_gene= | top_hits=37381
+[2026-04-20 17:19:27]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | CDS | genes=1299 | top_gene= | top_hits=36257
+[2026-04-20 17:35:52] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 17:35:52] [INFO] Region file manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/by_region/region_specific_file_manifest.tsv
+[2026-04-20 17:35:52] [INFO] Region summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/by_region/region_specific_peak_summary.tsv
+[2026-04-20 17:35:52] [INFO] Eligible region subsets: 8
+[2026-04-20 17:35:52] [INFO] [1/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS
+[2026-04-20 17:35:52] [INFO] [2/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron
+[2026-04-20 17:35:57] [INFO] [3/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS
+[2026-04-20 17:35:58] [INFO] [4/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron
+[2026-04-20 17:36:00] [INFO] [5/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | CDS
+[2026-04-20 17:36:00] [INFO] [6/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | intron
+[2026-04-20 17:36:01] [INFO] [7/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | CDS
+[2026-04-20 17:36:02] [INFO] [8/8] Mapping genes for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | intron
+[2026-04-20 17:36:03] 
+[2026-04-20 17:36:03] [DONE] Peak-set to gene mapping completed.
+[2026-04-20 17:36:03] [DONE] Manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/gene_mapping/peak_set_gene_mapping_manifest.tsv
+[2026-04-20 17:36:03] [DONE] Summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/gene_mapping/peak_set_gene_mapping_summary.tsv
+[2026-04-20 17:36:03] [INFO] OK rows      : 8
+[2026-04-20 17:36:03] [INFO] Problem rows : 0
+[2026-04-20 17:36:03] [INFO] Top mapped subsets:
+[2026-04-20 17:36:03]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron | genes=14940 | top_gene=PTPRN2 | top_hits=1259
+[2026-04-20 17:36:03]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron | genes=8935 | top_gene=SMYD3 | top_hits=208
+[2026-04-20 17:36:03]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | intron | genes=8057 | top_gene=AGAP1 | top_hits=126
+[2026-04-20 17:36:03]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | intron | genes=8053 | top_gene=CMIP | top_hits=166
+[2026-04-20 17:36:03]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS | genes=5811 | top_gene=MACF1 | top_hits=56
+[2026-04-20 17:36:03]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS | genes=2932 | top_gene=APOB | top_hits=119
+[2026-04-20 17:36:03]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | CDS | genes=1299 | top_gene=RBM39 | top_hits=15
+[2026-04-20 17:36:03]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | CDS | genes=1298 | top_gene=RBM39 | top_hits=18

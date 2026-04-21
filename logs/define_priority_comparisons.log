@@ -1,0 +1,11 @@
+[2026-04-20 16:29:58] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 16:29:58] [INFO] Sample summary input: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/comparisons/sample_pairwise_region_differences_summary.tsv
+[2026-04-20 16:29:58] [INFO] Aggregated summary input: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotations/region_distribution/comparisons/aggregated_pairwise_region_differences_summary.tsv
+[2026-04-20 16:29:59] [INFO] Sample comparison rows: 6
+[2026-04-20 16:29:59] [INFO] Aggregated comparison rows: 4
+[2026-04-20 16:29:59] 
+[2026-04-20 16:29:59] [DONE] Priority comparison definition completed.
+[2026-04-20 16:29:59] [DONE] Output TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/exploratory_priority_comparisons.tsv
+[2026-04-20 16:29:59] 
+[2026-04-20 16:29:59]   priority_1 | sample | sample_same_target_diff_biosample | TARDBP/HepG2/ENCSR187VEQ | TARDBP/K562/ENCSR584TCR | region=intron | abs_delta_pct=17.1998 | score=22.6998
+[2026-04-20 16:29:59]   priority_1 | aggregated | aggregated_same_target_diff_biosample | TARDBP/HepG2/ | TARDBP/K562/ | region=intron | abs_delta_pct=15.9648 | score=20.9648

@@ -1,0 +1,33 @@
+[2026-04-20 16:45:22] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 16:45:22] [INFO] Comparison manifest: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/comparison_peak_set_manifest.tsv
+[2026-04-20 16:45:22] [INFO] Eligible comparisons: 1
+[2026-04-20 16:45:22] [INFO] min_overlap_bp: 1
+[2026-04-20 16:45:22] [INFO] min_reciprocal_overlap: 0.0
+[2026-04-20 16:45:22] [INFO] [1/1] Building overlap sets for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB
+[2026-04-20 16:47:27] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 16:47:27] [INFO] Comparison manifest: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/comparison_peak_set_manifest.tsv
+[2026-04-20 16:47:27] [INFO] Eligible comparisons: 1
+[2026-04-20 16:47:27] [INFO] min_overlap_bp: 1
+[2026-04-20 16:47:27] [INFO] min_reciprocal_overlap: 0.0
+[2026-04-20 16:47:27] [INFO] [1/1] Building overlap sets for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB
+[2026-04-20 16:47:33] 
+[2026-04-20 16:47:33] [DONE] Peak overlap set construction completed.
+[2026-04-20 16:47:33] [DONE] Summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/overlaps/overlap_summary.tsv
+[2026-04-20 16:47:33] [DONE] File manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/overlaps/overlap_file_manifest.tsv
+[2026-04-20 16:47:33] [INFO] OK rows      : 1
+[2026-04-20 16:47:33] [INFO] Problem rows : 0
+[2026-04-20 16:47:33]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_total=160498 | right_total=107504 | shared_left=42229 | shared_right=1 | left_specific=118269 | right_specific=0 | pair_links=44664
+[2026-04-20 16:56:05] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 16:56:05] [INFO] Comparison manifest: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/comparison_peak_set_manifest.tsv
+[2026-04-20 16:56:05] [INFO] Annotation input manifest: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/annotation_inputs/annotation_input_manifest.tsv
+[2026-04-20 16:56:05] [INFO] Eligible comparisons: 1
+[2026-04-20 16:56:05] [INFO] min_overlap_bp: 1
+[2026-04-20 16:56:05] [INFO] min_reciprocal_overlap: 0.0
+[2026-04-20 16:56:05] [INFO] [1/1] Building overlap sets for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB
+[2026-04-20 16:56:14] 
+[2026-04-20 16:56:14] [DONE] Peak overlap set construction completed.
+[2026-04-20 16:56:14] [DONE] Summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/overlaps/overlap_summary.tsv
+[2026-04-20 16:56:14] [DONE] File manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/overlaps/overlap_file_manifest.tsv
+[2026-04-20 16:56:14] [INFO] OK rows      : 1
+[2026-04-20 16:56:14] [INFO] Problem rows : 0
+[2026-04-20 16:56:14]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_total=160498 | right_total=107504 | shared_left=42229 | shared_right=38330 | left_specific=118269 | right_specific=69174 | pair_links=44664

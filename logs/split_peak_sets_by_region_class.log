@@ -1,0 +1,25 @@
+[2026-04-20 17:07:08] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 17:07:08] [INFO] Overlap summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/overlaps/overlap_summary.tsv
+[2026-04-20 17:07:08] [INFO] Overlap file manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/overlaps/overlap_file_manifest.tsv
+[2026-04-20 17:07:08] [INFO] Regions to split: five_prime_utr, three_prime_utr, utr, CDS, exon, intron, gene, intergenic
+[2026-04-20 17:07:08] [INFO] Eligible comparisons: 1
+[2026-04-20 17:07:08] [INFO] [1/1] Splitting by region for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB
+[2026-04-20 17:07:15] 
+[2026-04-20 17:07:15] [DONE] Region-based peak set splitting completed.
+[2026-04-20 17:07:15] [DONE] Summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/by_region/region_specific_peak_summary.tsv
+[2026-04-20 17:07:15] [DONE] File manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/processed/peaks/comparison_sets/by_region/region_specific_file_manifest.tsv
+[2026-04-20 17:07:15] [INFO] OK rows      : 32
+[2026-04-20 17:07:15] [INFO] Problem rows : 0
+[2026-04-20 17:07:15] [INFO] Top region-split subsets:
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron | n=95130 | frac=0.804353
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron | n=37474 | frac=0.541735
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | intron | n=33854 | frac=0.801677
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | intron | n=30431 | frac=0.793921
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS | n=20749 | frac=0.299954
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | utr | n=11059 | frac=0.093507
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | utr | n=8790 | frac=0.127071
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS | n=7279 | frac=0.061546
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_left | utr | n=4650 | frac=0.110114
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | utr | n=4299 | frac=0.112158
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | exon | n=3060 | frac=0.025873
+[2026-04-20 17:07:15]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | shared_right | CDS | n=2302 | frac=0.060057

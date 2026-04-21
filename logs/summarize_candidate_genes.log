@@ -1,0 +1,38 @@
+[2026-04-20 17:46:57] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 17:46:57] [INFO] Gene mapping manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/gene_mapping/peak_set_gene_mapping_manifest.tsv
+[2026-04-20 17:46:57] [INFO] Gene mapping summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/gene_mapping/peak_set_gene_mapping_summary.tsv
+[2026-04-20 17:46:57] [INFO] Eligible peak sets: 4
+[2026-04-20 17:46:57] [INFO] [1/4] Summarizing candidates for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS
+[2026-04-20 17:46:57] [INFO] [2/4] Summarizing candidates for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron
+[2026-04-20 17:46:58] [INFO] [3/4] Summarizing candidates for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS
+[2026-04-20 17:46:58] [INFO] [4/4] Summarizing candidates for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron
+[2026-04-20 17:46:58] 
+[2026-04-20 17:46:58] [DONE] Candidate gene summarization completed.
+[2026-04-20 17:46:58] [DONE] Overview TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/candidate_gene_overview.tsv
+[2026-04-20 17:46:58] [DONE] Top-by-set TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/top_candidate_genes_by_peak_set.tsv
+[2026-04-20 17:46:58] [DONE] Recurrence TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/candidate_gene_recurrence.tsv
+[2026-04-20 17:46:58] [DONE] Set summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/candidate_gene_set_summary.tsv
+[2026-04-20 17:46:58] [INFO] Top candidate-gene subsets:
+[2026-04-20 17:46:58]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron | top_gene=PTPRN2 | top_hits=1259
+[2026-04-20 17:46:58]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron | top_gene=SMYD3 | top_hits=208
+[2026-04-20 17:46:58]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS | top_gene=APOB | top_hits=119
+[2026-04-20 17:46:58]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS | top_gene=MACF1 | top_hits=56
+[2026-04-20 21:17:22] [INFO] Project root: /data15/data15_5/junguang/wangshuo/rna_dynamics
+[2026-04-20 21:17:22] [INFO] Gene mapping manifest TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/gene_mapping/peak_set_gene_mapping_manifest.tsv
+[2026-04-20 21:17:22] [INFO] Gene mapping summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/gene_mapping/peak_set_gene_mapping_summary.tsv
+[2026-04-20 21:17:22] [INFO] Eligible peak sets: 4
+[2026-04-20 21:17:22] [INFO] [1/4] Summarizing candidates for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS
+[2026-04-20 21:17:22] [INFO] [2/4] Summarizing candidates for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron
+[2026-04-20 21:17:22] [INFO] [3/4] Summarizing candidates for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS
+[2026-04-20 21:17:22] [INFO] [4/4] Summarizing candidates for sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron
+[2026-04-20 21:17:23] 
+[2026-04-20 21:17:23] [DONE] Candidate gene summarization completed.
+[2026-04-20 21:17:23] [DONE] Overview TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/candidate_gene_overview.tsv
+[2026-04-20 21:17:23] [DONE] Top-by-set TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/top_candidate_genes_by_peak_set.tsv
+[2026-04-20 21:17:23] [DONE] Recurrence TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/candidate_gene_recurrence.tsv
+[2026-04-20 21:17:23] [DONE] Set summary TSV: /data15/data15_5/junguang/wangshuo/rna_dynamics/results/tables/candidate_genes/candidate_gene_set_summary.tsv
+[2026-04-20 21:17:23] [INFO] Top candidate-gene subsets:
+[2026-04-20 21:17:23]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | intron | top_gene=PTPRN2 | top_hits=1259
+[2026-04-20 21:17:23]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | intron | top_gene=SMYD3 | top_hits=208
+[2026-04-20 21:17:23]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | left_specific | CDS | top_gene=APOB | top_hits=119
+[2026-04-20 21:17:23]   sample__TARDBP__HepG2__ENCSR187VEQ__ENCFF626XAA__VS__TARDBP__K562__ENCSR584TCR__ENCFF606RXB | right_specific | CDS | top_gene=MACF1 | top_hits=56
