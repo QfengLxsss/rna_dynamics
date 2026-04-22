@@ -1,6 +1,6 @@
 # RNA Dynamics / RBP Binding Site Collection
 
-本项目围绕RBP的 ENCODE eCLIP peak 数据，建立一套从数据收集、peak 文件筛选、标准化、区域注释、区域组成比较，到差异 peak 集合拆分、候选基因汇总和功能分析输入准备的探索性分析流程。
+本项目围绕RBP的 ENCODE eCLIP peak 数据，建立一套从数据收集、peak 文件筛选、标准化、区域注释、区域组成比较，到差异 peak 集合拆分、候选基因汇总和功能分析输入准备的探索性分析流程benchmark。
 
 当前项目的定位是：
 
@@ -26,6 +26,18 @@
 
 - [第一轮结果](docs/exploratory_findings_round1.md)
 - [第二轮结果](docs/exploratory_findings_round2.md)
+
+### 亟待解决的问题
+
+- [ ]  **Peak 过滤：**对peak进行过滤，去掉一些低置信的peak，目前某些基因上的Peak数异常偏高
+- [ ]  **Gene 表达过滤：**引入 RNA-seq 表达数据，因为观察发现的区域比例差异现象可能部分来自表达谱差异，而不完全是 RBP 结合偏好差异
+- [ ]  **RBP 功能分类：**后续引入更多RBP时，对RBP做分类然后根据不同的功能分类研究
+- [ ]  **多 RBP 重叠 peak：**在同一细胞系或不同细胞系中，找多个 RBP 共同结合的区域
+- [ ]  **脚本工具函数重复问题：**目前代码过于臃肿，将常用函数抽成 scripts/utils/ 或一个小包
+- [ ]  **前期数据处理优化：**研究ENCORI数据库的应用，节约前期数据处理工作花费
+- [ ]  **后期方向展望：**偏组学分析方向还是拓展到AI方向
+- [ ]  **缺乏创新性：**更像是实践复现流程或benchmark编写
+
 
 ## 项目想回答的问题
 
@@ -149,41 +161,6 @@ rna_dynamics/
 | 18 | `scripts/04_analysis/10_summarize_candidate_genes.py` | 汇总候选基因 |
 | 19 | `scripts/04_analysis/11_prepare_functional_gene_lists.py` | 准备用于功能富集的基因列表 |
 
-## 如何复现当前流程
-
-从项目根目录运行。
-
-```bash
-python scripts/01_metadata/01_collect_encode_eclip_metadata.py
-python scripts/01_metadata/02_build_download_manifest.py
-python scripts/02_download/download_encode_data.py
-python scripts/02_download/download_reference_gtf.py
-
-python scripts/03_processing/01_inventory_peak_files.py
-python scripts/03_processing/02_select_primary_peak_files.py
-python scripts/03_processing/03_standardize_primary_peak_files.py
-python scripts/03_processing/04_prepare_peak_annotation_inputs.py
-
-python scripts/04_analysis/01_annotate_peaks_with_gtf_regions.py
-python scripts/04_analysis/02_summarize_peak_region_distributions.py
-python scripts/04_analysis/03_compare_peak_region_distributions.py
-python scripts/04_analysis/04_plot_peak_region_distributions.py
-
-python scripts/04_analysis/05_define_priority_comparisons.py
-python scripts/04_analysis/06_extract_priority_peak_sets.py
-python scripts/04_analysis/07_build_peak_overlap_sets.py
-python scripts/04_analysis/08_split_peak_sets_by_region_class.py
-python scripts/04_analysis/09_map_peak_sets_to_genes.py
-python scripts/04_analysis/10_summarize_candidate_genes.py
-python scripts/04_analysis/11_prepare_functional_gene_lists.py
-```
-
-注意：
-
-- 元数据收集和数据下载需要联网。
-- 当前脚本默认使用项目内相对路径。
-- 运行日志写入 `logs/`。
-- 输出主要写入 `metadata/`、`processed/` 和 `results/`。
 
 ## 关键输出文件
 
@@ -316,8 +293,6 @@ results/tables/functional_inputs/
 
 ## 当前局限性
 
-当前结果应被视为探索性结果，原因包括：
-
 - 数据规模仍小：2 个 RBP、2 个细胞样本、5 个主实验。
 - 主 peak 文件选择是一种工程简化，还不是完整的重复样本建模。
 - 区域注释是优先级注释，不保留所有重叠区域身份。
@@ -342,7 +317,7 @@ results/tables/functional_inputs/
 
 第一轮分析跑通了数据处理、区域注释和区域组成比较。第二轮分析则沿着最强信号继续深入，拆分出样本特异 peak 集合、按区域划分的候选基因，并准备好了功能富集输入文件。
 
-当前最值得继续跟进的候选方向是：
+当前值得继续跟进的候选方向是：
 
 > `TARDBP | K562 | right_specific | CDS`
 
